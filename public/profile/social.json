@@ -1,0 +1,16 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://linkedin.com/"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/mayankagarwal09"
+        },
+        {
+            "network" : "email",
+            "href": "mailto:test@test.com"
+        }
+    ]
+}

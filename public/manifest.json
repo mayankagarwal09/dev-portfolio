@@ -1,0 +1,15 @@
+{
+  "short_name": "Mayank Agarwal",
+  "name": "Mayank Agarwal - Portfolio",
+  "icons": [
+    {
+      "src": "images/logo.png",
+      "type": "image/png",
+      "sizes": "425x225"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
