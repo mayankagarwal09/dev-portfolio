@@ -94,7 +94,10 @@ ProjectCard.propTypes = {
     title: PropTypes.string.isRequired,
     bodyText: PropTypes.string.isRequired,
     image: PropTypes.string,
-    links: PropTypes.arrayOf(PropTypes.object),
+    links: PropTypes.arrayOf(PropTypes.shape({
+      title: PropTypes.string.isRequired,
+      href: PropTypes.string.isRequired,
+    })),
     tags: PropTypes.arrayOf(PropTypes.string),
   }).isRequired,
 };
