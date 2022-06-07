@@ -1,10 +1,10 @@
 export const lightTheme = {
-  background: '#fff',
-  color: '#121212',
+  background: '#e9d5a1',
+  color: '#212529',
   accentColor: '#3D84C6',
   chronoTheme: {
     cardBgColor: 'white',
-    cardForeColor: 'black',
+    cardForeColor: '212529',
     titleColor: 'white',
   },
   timelineLineColor: '#ccc',
@@ -18,7 +18,7 @@ export const lightTheme = {
   },
   bsPrimaryVariant: 'light',
   bsSecondaryVariant: 'dark',
-  socialIconBgColor: '#121212',
+  socialIconBgColor: '#212529',
 };
 
 export const darkTheme = {

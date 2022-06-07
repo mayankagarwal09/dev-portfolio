@@ -1,9 +1,4 @@
 {
-    "logo" : {
-        "source": "images/logo.png",
-        "height" : 45,
-        "width" : 50
-    },
     "sections": [
         {
             "title": "Home",
@@ -16,14 +11,6 @@
         {
             "title": "Skills",
             "href": "/skills"
-        },
-        {
-            "title": "Education",
-            "href": "/education"
-        },
-        {
-            "title": "Experience",
-            "href": "/experience"
         },
         {
             "title": "Projects",
