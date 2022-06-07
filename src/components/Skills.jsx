@@ -17,6 +17,13 @@ const styles = {
   introTextContainer: {
     whiteSpace: 'pre-wrap',
   },
+  credits: {
+    display: 'flex',
+    flexDirection: 'horizontal',
+    width: '100%',
+    justifyContent: 'center',
+    fontSize: 10,
+  },
 };
 
 function Skills(props) {
@@ -62,6 +69,15 @@ function Skills(props) {
                   ))}
                 </div>
               ))}
+              <div style={styles.credits}>
+                <p>Icons by </p>
+                &nbsp;
+                <a href="https://iconscout.com/contributors/icon-54">Icon 54 </a>
+                &nbsp;
+                <p>at</p>
+                &nbsp;
+                <a href="https://iconscout.com"> IconScout</a>
+              </div>
             </Container>
           </div>
         </Fade>

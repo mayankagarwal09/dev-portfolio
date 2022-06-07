@@ -1,45 +1,45 @@
 {
-    "intro": "I love to learn new things and experiment with new technologies.\nThese are some of the major languages, technologies, tools and platforms I have worked with:",
+    "intro": "I've worked with the following languages, technologies, tools and platforms in my projects.\n I also enjoy learning new technologies based to improve the quality of my projects and tasks.",
     "skills": [{
      
             "title": "Languages & Databases",
             "items" : [
-     
+    
                 {
-                    "icon": "images/skills/java.png",
-                    "title": "Java"
-                },
-                {
-                    "icon": "images/skills/php.png",
-                    "title": "PHP"
-                },
-                {
-                    "icon": "images/skills/js.png",
+                    "icon": "images/skills/javascript.png",
                     "title": "JavaScript"
                 },
                 {
-                    "icon": "images/skills/python.png",
-                    "title": "Python"
-                },
-                {
-                    "icon": "images/skills/mysql.png",
-                    "title": "MySQL"
+                    "icon": "images/skills/mongodb.png",
+                    "title": "MongoDB"
                 }
         ]},
         {
             "title": "Frameworks & Technologies",
             "items" : [
                 {
-                    "icon": "images/skills/android_new.png",
-                    "title": "Android"
+                    "icon": "images/skills/node-js.png",
+                    "title": "Node.js"
                 },
                 {
                     "icon": "images/skills/react.png",
                     "title": "React"
                 },
                 {
-                    "icon": "images/skills/nodejs.png",
-                    "title": "Nodejs"
+                    "icon": "images/skills/nginx.png",
+                    "title": "Nginx"
+                },
+                {
+                    "icon": "images/skills/redux.png",
+                    "title": "Redux"
+                },
+                {
+                    "icon": "images/skills/jest.png",
+                    "title": "Jest"
+                },
+                {
+                    "icon": "images/skills/sass.png",
+                    "title": "Sass"
                 }
             ]
         },
@@ -47,16 +47,40 @@
             "title" : "Tools & Platforms",
             "items": [
                 {
-                    "icon": "images/skills/android-studio.png",
-                    "title": "Android Studio"
+                    "icon": "images/skills/docker.png",
+                    "title": "Docker"
+                },
+                {
+                    "icon": "images/skills/circleci.png",
+                    "title": "Circle CI"
                 },
                 {
                     "icon": "images/skills/git.png",
                     "title": "Git"
                 },
                 {
-                    "icon": "images/skills/docker.png",
-                    "title": "Docker"
+                    "icon": "images/skills/github.png",
+                    "title": "Github"
+                },
+                {
+                    "icon": "images/skills/heroku.png",
+                    "title": "Heroku"
+                },
+                {
+                    "icon": "images/skills/visual-studio-code.png",
+                    "title": "Visual Studio Code"
+                },
+                {
+                    "icon": "images/skills/postman.png",
+                    "title": "Postman"
+                },
+                {
+                    "icon": "images/skills/figma.png",
+                    "title": "Figma"
+                },
+                {
+                    "icon": "images/skills/photoshop.png",
+                    "title": "Photoshop"
                 }
             ]
     }
