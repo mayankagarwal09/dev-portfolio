@@ -1,9 +1,4 @@
 {
-    "logo" : {
-        "source": "images/logo.png",
-        "height" : 45,
-        "width" : 50
-    },
     "sections": [
         {
             "title": "Home",
