@@ -105,6 +105,10 @@ section.timeline-card-content div.card-description > p {
   margin-top: 60px;
 }
 
+.image-slider {
+  width: 40vw;
+}
+
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
 
