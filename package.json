@@ -9,7 +9,8 @@
     "bootstrap": "^5.1.1",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
-    "react-bootstrap": "^2.0.0-rc.0",
+    "react-awesome-slider": "^4.1.0",
+    "react-bootstrap": "^2.4.0",
     "react-chrono": "^1.12.1",
     "react-dark-mode-toggle": "^0.2.0",
     "react-dom": "^17.0.2",
@@ -44,15 +45,16 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "react-error-overlay": "6.0.9",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.26.1",
-    "eslint-plugin-react-hooks": "^4.2.0"
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "react-error-overlay": "6.0.9",
+    "sass": "^1.52.2"
   },
   "resolutions": {
     "react-error-overlay": "6.0.9"
   }
-  }
+}
