@@ -5,6 +5,7 @@ import {
 import PropTypes from 'prop-types';
 import { ThemeContext } from 'styled-components';
 import ReactMarkdown from 'react-markdown';
+import importAll from '../../lib/importAll';
 
 const styles = {
   badgeStyle: {
@@ -37,7 +38,7 @@ const styles = {
 const ProjectCard = (props) => {
   const theme = useContext(ThemeContext);
   const parseBodyText = (text) => <ReactMarkdown children={text} />;
-
+  const images = importAll(require.context('../../../public/images/projects', false, /\.(PNG|jpe?g|svg)$/));
   const {
     project, handleShow,
   } = props;
@@ -55,7 +56,7 @@ const ProjectCard = (props) => {
         >
           <Card.Img
             variant="top"
-            src={project?.thumbnail}
+            src={images[project?.thumbnail].default}
             style={{
               cursor: 'pointer',
             }}
@@ -106,7 +107,7 @@ ProjectCard.propTypes = {
     thumbnail: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     bodyText: PropTypes.string.isRequired,
-    image: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
+    images: PropTypes.arrayOf(PropTypes.string.isRequired).isRequired,
     links: PropTypes.arrayOf(PropTypes.shape({
       text: PropTypes.string.isRequired,
       href: PropTypes.string.isRequired,
