@@ -1,30 +1,46 @@
 {
     "projects" : [
         {
-            "thumbnail": "images/projects/logger-1.png",
-            "image" : ["images/projects/logger-1.png", 
-                "images/projects/logger-2.png",
-                "images/projects/logger-3.png",
-                "images/projects/logger-4.png",
-                "images/projects/logger-5.png"
+            "thumbnail" : "images/projects/moreplates-01.png",
+            "image" : ["images/projects/moreplates-01.png", 
+                "images/projects/moreplates-02.png",
+                "images/projects/moreplates-03.png",
+                "images/projects/moreplates-04.png",
+                "images/projects/moreplates-05.png",
+                "images/projects/moreplates-06.png",
+                "images/projects/moreplates-07.png",
+                "images/projects/moreplates-08.png",
+                "images/projects/moreplates-09.png",
+                "images/projects/moreplates-10.png",
+                "images/projects/moreplates-11.png",
+                "images/projects/moreplates-12.png",
+                "images/projects/moreplates-13.png",
+                "images/projects/moreplates-14.png",
+                "images/projects/moreplates-15.png",
+                "images/projects/moreplates-16.png"
             ],
-            "title": "531 Logger",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "title": "More Plates",
+            "bodyText": "- A **responsive** CRUD app for mobile and desktop for a beginner-friendly journal for 531 powerlifting program. \n - Front end built with **React**, React Redux, and Sass and served with **Nginx**. \n - Back end built on **Node.js**, Express.js, and **MongoDB**. \n - User authentication with json web tokens. \n - **React Testing Library** and Jest for front end testing. \n - **Mocha** and Sinon for backend testing. \n - Developed on **Docker**. \n - CI/CD pipeline with **Circle CI** to test and deploy on **Heroku**.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/dwong4013/531logger/tree/v1"
+                    "href": "https://github.com/dwong4013/531logger/tree/v2"
                 },
                 {
                     "text": "Live",
-                    "href": "https://logger-531-v1.herokuapp.com"
+                    "href": "https://moreplates.herokuapp.com"
                 }
             ],
             "tags" : [
                 "React",
-                "Redux",
+                "React Redux",
                 "Nodejs",
                 "MongoDB",
+                "Nginx",
+                "React Testing Library",
+                "Jest",
+                "Mocha",
+                "Sinon",
                 "Heroku",
                 "Docker",
                 "Circle CI",
@@ -64,16 +80,16 @@
                 "images/projects/saas-30.png"
             ],            
             "title": "Warehouse SaaS Prototype",
-            "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
+            "bodyText": "- A **SaaS ERP** desktop-only prototype used for managing the order to cash process for B2B operations. \n - Front end built with **React**, React Redux, and Sass. \n - Back end built on **Node.js**, Express.js, and **MongoDB**. \n - User authentication with sessions and **Google OAuth**. \n - **React Testing Library** and Jest for front end testing. \n - **Mocha** and Sinon for backend testing. \n - Developed on **Docker**. \n - CI pipeline for testing on **Circle CI**.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Caaring"
+                    "href": "https://github.com/Central-Nova/webproto/tree/development"
                 }
             ],
             "tags" : [
                 "React",
-                "Redux",
+                "React Redux",
                 "Nodejs",
                 "Passportjs",
                 "MongoDB",
@@ -86,48 +102,31 @@
             ]
         },
         {
-            "thumbnail" : "images/projects/moreplates-01.png",
-            "image" : ["images/projects/moreplates-01.png", 
-                "images/projects/moreplates-02.png",
-                "images/projects/moreplates-03.png",
-                "images/projects/moreplates-04.png",
-                "images/projects/moreplates-05.png",
-                "images/projects/moreplates-06.png",
-                "images/projects/moreplates-07.png",
-                "images/projects/moreplates-08.png",
-                "images/projects/moreplates-09.png",
-                "images/projects/moreplates-10.png",
-                "images/projects/moreplates-11.png",
-                "images/projects/moreplates-12.png",
-                "images/projects/moreplates-13.png",
-                "images/projects/moreplates-14.png",
-                "images/projects/moreplates-15.png",
-                "images/projects/moreplates-16.png"
+            "thumbnail": "images/projects/logger-1.png",
+            "image" : ["images/projects/logger-1.png", 
+                "images/projects/logger-2.png",
+                "images/projects/logger-3.png",
+                "images/projects/logger-4.png",
+                "images/projects/logger-5.png"
             ],
-            "title": "More Plates",
-            "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
+            "title": "531 Logger",
+            "bodyText": "- A CRUD desktop-only app serving as a customizable workout planner and journal for the 531 powerlifting program. \n - Front end built on **React**, React Redux, and Sass. \n - Back end built on **Nodejs** and Express. \n - Deployed on **Heroku** using **Circle CI**.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/dwong4013/531logger/tree/v2"
+                    "href": "https://github.com/dwong4013/531logger/tree/v1"
                 },
                 {
                     "text": "Live",
-                    "href": "https://moreplates.herokuapp.com"
+                    "href": "https://logger-531-v1.herokuapp.com"
                 }
             ],
             "tags" : [
                 "React",
-                "Redux",
+                "React Redux",
                 "Nodejs",
-                "Passportjs",
                 "MongoDB",
-                "Nginx",
-                "React Testing Library",
-                "Jest",
-                "Mocha",
                 "Heroku",
-                "Docker",
                 "Circle CI",
                 "Sass"
             ]
