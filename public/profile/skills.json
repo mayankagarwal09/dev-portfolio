@@ -26,16 +26,20 @@
                     "title": "React"
                 },
                 {
+                    "icon": "images/skills/redux.png",
+                    "title": "React Redux"
+                },
+                {
                     "icon": "images/skills/nginx.png",
                     "title": "Nginx"
                 },
                 {
-                    "icon": "images/skills/redux.png",
-                    "title": "Redux"
-                },
-                {
                     "icon": "images/skills/jest.png",
                     "title": "Jest"
+                },
+                {
+                    "icon": "images/skills/mocha.svg",
+                    "title": "Mocha"
                 },
                 {
                     "icon": "images/skills/sass.png",
