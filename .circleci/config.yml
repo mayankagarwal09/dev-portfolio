@@ -1,0 +1,45 @@
+version: 2.1
+orbs: 
+  heroku: circleci/heroku@1.2.6
+
+jobs:
+  test_build:
+    docker:
+      - image: cimg/node:14.16.1
+    steps:
+      - checkout
+      - run: npm install --legacy-peer-deps
+      - run: INLINE_RUNTIME_CHUNK=false IMAGE_INLINE_SIZE_LIMIT=0 npm run build
+  build_push_release_image:
+    docker:
+      - image: cimg/node:14.16.1
+        auth:
+          username: $DOCKER_USERNAME
+          password: $DOCKER_PASSWORD
+    steps:
+      - checkout
+      - setup_remote_docker:
+          version: 20.10.14
+          docker_layer_caching: true
+      - run: 
+          name: Build, push, and release client image to Heroku
+          command: |
+            sudo curl https://cli-assets.heroku.com/install.sh | sh 
+            docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
+            docker login --username=$DOCKER_USERNAME --password=$HEROKU_TOKEN registry.heroku.com
+            docker build . -t $DOCKER_USERNAME/$HEROKU_PORTFOLIO_APP
+            docker tag $DOCKER_USERNAME/$HEROKU_PORTFOLIO_APP registry.heroku.com/$HEROKU_PORTFOLIO_APP/web
+            docker push $DOCKER_USERNAME/$HEROKU_PORTFOLIO_APP
+            docker push registry.heroku.com/$HEROKU_PORTFOLIO_APP/web
+            HEROKU_API_KEY=$HEROKU_TOKEN heroku container:release --app=$HEROKU_PORTFOLIO_APP web
+workflows:
+  version: 2
+  deploy:
+    jobs:
+      - build_push_release_image:
+          requires:
+            - test_build
+          filters:
+            branches:
+              only: main
+
