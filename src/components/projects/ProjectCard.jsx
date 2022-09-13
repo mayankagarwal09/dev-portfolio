@@ -94,6 +94,7 @@ ProjectCard.propTypes = {
     title: PropTypes.string.isRequired,
     bodyText: PropTypes.string.isRequired,
     image: PropTypes.string,
+    // eslint-disable-next-line react/forbid-prop-types
     links: PropTypes.arrayOf(PropTypes.object),
     tags: PropTypes.arrayOf(PropTypes.string),
   }).isRequired,
