@@ -18,7 +18,7 @@ function App() {
       <ThemeProvider theme={darkMode.value ? darkTheme : lightTheme}>
         <GlobalStyles />
         <div className="App">
-          <BrowserRouter>
+          <BrowserRouter basename="/e-portfolio">
             <MainApp />
           </BrowserRouter>
         </div>
