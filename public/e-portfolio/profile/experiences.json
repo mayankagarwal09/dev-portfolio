@@ -1,33 +1,66 @@
 {
-    "experiences": [
-        {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Full-time",
-            "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
-            ],
-            "dateText": "06/20XX – Present"
-        },
-        {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Internship",
-            "workDescription": [
-                "Worked on abc."
-            ],
-            "dateText": "01/20XX – 05/20XX"
-        },
-        {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
-            "workType": "Freelance",
-            "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
-            ],
-            "dateText": "09/20XX – 01/20YY"
-        }
-    ]
+  "experiences": [
+    {
+      "title": "Fullstack Engineer",
+      "subtitle": "Immowelt GmbH",
+      "workType": "Full-time",
+      "workDescription": [
+        "Effectively coded software changes and alterations based on specific design specifications.",
+        "Collaborated to create strategic initiatives to design, code, and test solutions.",
+        "Architecture of Cloud based solutions in Amazon Web Services using different IaC tools, i.e. Terraform, Cloudformation and CDK",
+        "Contributed in reducing to 10% AWS costs using different metrics.",
+        "Migrated on premises servers and database (Postgres SQL) into AWS.",
+        "Implemented and deployed different micro services using AWS services utilizing the Domain- Driven Design."
+      ],
+      "dateText": "11/2020 – Present"
+    },
+    {
+      "title": "Junior Backend Developer",
+      "subtitle": "Otto GmbH & Co KG",
+      "workType": "Full-time",
+      "workDescription": [
+        "Architecture of Cloud based solutions in Amazon Web Services.",
+        "Implemented the cloud infrastructure as a code using Terraform.",
+        "Implemented and deployed different micro services using AWS services utilizing the Domain- Driven Design.",
+        "Follow an object-oriented design and design patterns in the project code base.",
+        "Prepared unit test cases and reviewed test results.",
+        "Participated in agile SCRUM meetings."
+      ],
+      "dateText": "08/2018 – 10/2020"
+    },
+    {
+      "title": "Junior Full Stack Developer",
+      "subtitle": "Novomind AG",
+      "workType": "Working student",
+      "workDescription": [
+        "Develop front-end web pages using JSP, JavaScript, HTML5,Less.",
+        "Configured webpack for the frontend build as a module bundler and task runner.",
+        "Build projects using maven and develop backend modules using java spring, spring IOC, spring MVC, spring data JPA, Hibernate etc.",
+        "Follow an object-oriented design and design patterns in the project code base"
+      ],
+      "dateText": "01/2018 – 08/2018"
+    },
+    {
+      "title": "Web Developer",
+      "subtitle": "Lustita Limited",
+      "workType": "Working student",
+      "workDescription": [
+        "Make web applications with Angular.js and Angular material using JavaScript and CSS and Less.",
+        "Make the existing webapp into android, IOS mobile app using Cordova and optimize them.",
+        "Provided effective troubleshooting and remediation for web applications."
+      ],
+      "dateText": "03/2017 – 12/2017"
+    },
+    {
+      "title": "Frontend Developer",
+      "subtitle": "Clansweb.de",
+      "workType": "Working student",
+      "workDescription": [
+        "Aided in developing fullyefficient responsive prototypes based on company Requirements using HTML/HTML5, CSS3, JavaScript.",
+        "Maintained brand standards under company guidelines.",
+        "Workflow tools included: HTML, CSS, React.JS, Cordova, Node.js and Git."
+      ],
+      "dateText": "01/2018 – 08/2018"
+    }
+  ]
 }
