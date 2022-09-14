@@ -14,8 +14,10 @@ function App() {
   const darkMode = useDarkMode(true);
   if (window.location.href.includes('#')) {
     const history = useHistory();
-    console.log('pushing to router');
     const path = window.location.href.replace('#', '');
+    console.log('pushing to router');
+    console.log(path);
+    console.log(history);
     history.push(path);
   }
   return (
