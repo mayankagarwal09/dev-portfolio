@@ -26,20 +26,6 @@ function MainApp() {
             {data
               && data.sections.map((route) => {
                 const SectionComponent = React.lazy(() => import('./components/' + route.component));
-            /*    if (window.location.href.includes('#')) {
-                  const pathArray = window.location.href.split('/#/');
-                  const path = pathArray[pathArray.length - 1];
-                  const title = path.charAt(0).toUpperCase() + path.slice(1);
-                  return (
-                    <Route
-                      key={title}
-                      path={'/' + path}
-                      component={() => (
-                        <SectionComponent header={title} />
-                      )}
-                    />
-                  );
-                }*/
                 return (
                   <Route
                     key={route.headerTitle}
