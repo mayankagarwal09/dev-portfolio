@@ -12,9 +12,9 @@ import { lightTheme, darkTheme } from './theme/themes';
 function App() {
   window.matchMedia = null;
   const darkMode = useDarkMode(true);
+  const history = useHistory();
   if (window.location.href.includes('#')) {
-    const history = useHistory();
-    const path = window.location.href.replace('#', '');
+    const path = window.location.href.replace('/#', '');
     console.log('pushing to router');
     console.log(path);
     console.log(history);
