@@ -1,5 +1,5 @@
 import React, { useState, useEffect, Suspense } from 'react';
-import { Switch, Route, useHistory } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import FallbackSpinner from './components/FallbackSpinner';
 import NavBarWithRouter from './components/NavBar';
 import Home from './components/Home';
@@ -7,14 +7,6 @@ import endpoints from './constants/endpoints';
 
 function MainApp() {
   const [data, setData] = useState(null);
-  const history = useHistory();
-  if (window.location.href.includes('#')) {
-    const path = window.location.href.replace('/#', '');
-    console.log('pushing to router');
-    console.log(path);
-    console.log(history);
-    history.push(path);
-  }
   useEffect(() => {
     fetch(endpoints.routes, {
       method: 'GET',
@@ -34,6 +26,20 @@ function MainApp() {
             {data
               && data.sections.map((route) => {
                 const SectionComponent = React.lazy(() => import('./components/' + route.component));
+                if (window.location.href.includes('#')) {
+                  const pathArray = window.location.href.split('/#/');
+                  const path = pathArray[pathArray.length - 1];
+                  const title = path.charAt(0).toUpperCase() + path.slice(1);
+                  return (
+                    <Route
+                      key={title}
+                      path={'/' + path}
+                      component={() => (
+                        <SectionComponent header={title} />
+                      )}
+                    />
+                  );
+                }
                 return (
                   <Route
                     key={route.headerTitle}
