@@ -14,10 +14,7 @@ function MainApp() {
     })
       .then((res) => res.json())
       .then((res) => setData(res))
-      .catch((err) => {
-        console.log('error');
-        return err;
-      });
+      .catch((err) => err);
   }, []);
 
   return (
