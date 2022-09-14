@@ -1,19 +1,22 @@
 {
     "education":[
         {
-            "title": "Jun 20XX - Jun 20YY",
-            "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"XYZ University, City",
-            "cardDetailedText": "CGPA - 9.5",
+            "title": "Sept 2022 - Present",
+            "cardTitle": "MSc. Cybersecurity",
+            "cardSubtitle":"HAW Hamburg",
+            "cardDetailedText": "1.9 Grade",
             "icon" : {
-                "src": "images/education/lorem-ipsum.png"
+                "src": "images/education/haw.png"
             }
         },
         {
-            "title": "Apr 20XX",
-            "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
+            "title": "Aug 2013 - Jul 2018",
+            "cardTitle": "B.Sc. Information Engineering",
+            "cardSubtitle":"HAW Hamburg",
+            "cardDetailedText": "1.9 Grade",
+            "icon" : {
+                "src": "images/education/haw.png"
+            }
         }
     ]
 }
