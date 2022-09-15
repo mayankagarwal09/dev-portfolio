@@ -78,9 +78,26 @@ Once your server has started, go to this url `http://localhost:3000/` to see the
 The page will reload if you make edits.
 
 ---
+## Using React to deploy the SPA in Github pages
+
+The dependency `https://github.com/gitname/react-gh-pages` is used to deploy the react SPA easily in the Github pages.
+In the package.json the predeploy, deploy, and postbuild steps must be added. Additionally in homepage package must be added as well in the package.json.
+
+```package.json
+"homepage": "https://prannoymulmi.github.io/e-portfolio",
+"scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
+    "postbuild": "ln -s index.html build/404.html"
+    }
+```
+
+## Deployment using Github Actions
+
+The deployment happens automatically using the continuous deployment using Github actions 
 
 ## Credit
-- Credit to **Mayank Agarwal** - [https://github.com/mayankagarwal09](https://github.com/mayankagarwal09) for all the work.
+- Credit to **Mayank Agarwal** - [https://github.com/mayankagarwal09](https://github.com/mayankagarwal09).
 
 ## License 📄
 
