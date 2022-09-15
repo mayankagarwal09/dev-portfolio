@@ -1,6 +1,6 @@
 {
     "logo" : {
-        "source": "images//about/git_profile.png",
+        "source": "images/logo.png",
         "height" : 45,
         "width" : 50
     },
