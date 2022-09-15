@@ -16,6 +16,34 @@
                 "Swagger",
                 "Junit"
             ]
+        },
+        {
+            "title": "aws_infrastructure",
+            "bodyText": "This rudimentary terraform setup to deploy aws services",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/prannoymulmi/aws_infrastructure"
+                }
+            ],
+            "tags" : [
+                "Terraform",
+                "Bash"
+            ]
+        },
+        {
+            "title": "Fizzbuzz Service",
+            "bodyText": "This rudimentary terraform setup to deploy aws services",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/prannoymulmi/aws_infrastructure"
+                }
+            ],
+            "tags" : [
+                "Terraform",
+                "Bash"
+            ]
         }
     ]
 }
