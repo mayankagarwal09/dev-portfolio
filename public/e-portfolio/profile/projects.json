@@ -1,7 +1,6 @@
 {
     "projects" : [
         {
-            "image" : "images/projects/portfolio-poster.png",
             "title": "User management service",
             "bodyText": "This is a simple CRUD application written in Spring boot framework. This Application allows one to save a users data and query them using their.",
             "links": [
