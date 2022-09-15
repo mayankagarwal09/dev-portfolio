@@ -44,6 +44,23 @@
                 "Terraform",
                 "Bash"
             ]
+        },
+        {
+            "title": "Todo list Back end",
+            "bodyText": "A Todo list service implemented in dot net core",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/prannoymulmi/TodoListAPI_Dotnet_Core"
+                }
+            ],
+            "tags" : [
+                "Donet core",
+                "C#",
+                "MVC",
+                "Rest API",
+                "JWT"
+            ]
         }
     ]
 }

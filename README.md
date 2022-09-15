@@ -89,7 +89,7 @@ In the package.json the predeploy, deploy, and postbuild steps must be added. Ad
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
     "postbuild": "ln -s index.html build/404.html"
-    }
+}
 ```
 
 ## Deployment using Github Actions
