@@ -1,14 +1,26 @@
 name: Deploy to Pages
 
-on: [ push ]
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   github-pages-deploy:
     runs-on: ubuntu-latest
+    concurrency: ci-${{github.ref}} # Recommended if you intend to make multiple deployments in quick succession.
     steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
+      - name: checkout
+        uses: actions/checkout@v3
+
+      - name: Setup-node
+        uses: actions/setup-node@v1
         with:
           node-version: 16
       - run: yarn
-      - run: yarn deploy -- -m ${{ github.event.head_commit.message }}
+      - run: yarn build
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: build # The folder the action should deploy.
+          token: TOKEN_REPO
