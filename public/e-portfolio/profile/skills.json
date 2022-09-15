@@ -28,6 +28,14 @@
                 {
                     "icon": "images/skills/nodejs.png",
                     "title": "Nodejs"
+                },
+                {
+                    "icon": "images/skills/springboot.png",
+                    "title": "Nodejs"
+                },
+                {
+                    "icon": "images/skills/typescript.png",
+                    "title": "Nodejs"
                 }
             ]
         },
