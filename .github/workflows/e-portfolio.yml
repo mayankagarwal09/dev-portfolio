@@ -1,0 +1,14 @@
+name: Deploy to Pages
+
+on: [ push ]
+
+jobs:
+  github-pages-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 16
+      - run: yarn
+      - run: yarn deploy -- -m ${{ github.event.head_commit.message }}
