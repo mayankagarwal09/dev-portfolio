@@ -33,7 +33,7 @@ const styles = {
   },
 };
 
-const ProjectCard = (props) => {
+function ProjectCard(props) {
   const theme = useContext(ThemeContext);
   const parseBodyText = (text) => <ReactMarkdown children={text} />;
 
@@ -87,7 +87,7 @@ const ProjectCard = (props) => {
       </Card>
     </Col>
   );
-};
+}
 
 ProjectCard.propTypes = {
   project: PropTypes.shape({

@@ -36,7 +36,7 @@ const InternalNavLink = styled(NavLink)`
   }
 `;
 
-const NavBar = () => {
+function NavBar() {
   const theme = useContext(ThemeContext);
   const [data, setData] = useState(null);
   const [expanded, setExpanded] = useState(false);
@@ -115,7 +115,7 @@ const NavBar = () => {
       </Container>
     </Navbar>
   );
-};
+}
 
 const NavBarWithRouter = withRouter(NavBar);
 export default NavBarWithRouter;
