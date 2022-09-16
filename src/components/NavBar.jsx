@@ -1,17 +1,10 @@
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import React, { useEffect, useState, useContext } from 'react';
-import { useNavigate } from 'react-router';
+import { withRouter } from 'react-router';
 import { NavLink } from 'react-router-dom';
 import styled, { ThemeContext } from 'styled-components';
 import endpoints from '../constants/endpoints';
 import ThemeToggler from './ThemeToggler';
-
-const withRouter = function (Component) {
-  return function Wrapper(props) {
-    const history = useNavigate();
-    return <Component history={history} {...props} />;
-  };
-};
 
 const styles = {
   logoStyle: {
