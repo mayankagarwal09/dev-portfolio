@@ -14,7 +14,7 @@
     "react-chrono": "^1.12.1",
     "react-dark-mode-toggle": "^0.2.0",
     "react-dom": "18.2.0",
-    "react-markdown": "^7.0.1",
+    "react-markdown": "8.0.3",
     "react-reveal": "^1.2.2",
     "react-router": "^5.2.1",
     "react-router-dom": "^5.3.0",
