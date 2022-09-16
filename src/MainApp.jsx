@@ -30,7 +30,7 @@ function MainApp() {
                   <Route
                     key={route.headerTitle}
                     path={route.path}
-                    //eslint-disable-next-line react/no-unstable-nested-components
+                    // eslint-disable-next-line react/no-unstable-nested-components
                     component={() => (
                       <SectionComponent header={route.headerTitle} />
                     )}
