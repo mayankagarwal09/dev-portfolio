@@ -1,6 +1,24 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base"
-  ]
+    "config:base",
+    "group:monorepos",
+    ":automergeMinor",
+    ":automergeRequireAllStatusChecks",
+    ":prConcurrentLimit10",
+    ":automergeBranch",
+    ":dependencyDashboard"
+  ],
+  "stabilityDays": 3,
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "automerge": true
+    }
+  ],
+  "platformAutomerge": true
 }
