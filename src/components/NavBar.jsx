@@ -6,7 +6,6 @@ import styled, { ThemeContext } from 'styled-components';
 import endpoints from '../constants/endpoints';
 import ThemeToggler from './ThemeToggler';
 
-// eslint-disable-next-line func-names
 const withRouter = function (Component) {
   return function Wrapper(props) {
     const history = useNavigate();
