@@ -41,7 +41,7 @@ function Education(props) {
 
   return (
     <>
-      <Header title={header} />
+      <Header title={header + ' & Certifications'} />
       {data ? (
         <Fade>
           <div style={{ width }} className="section-content-container">
