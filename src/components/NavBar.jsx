@@ -5,6 +5,7 @@ import { NavLink } from 'react-router-dom';
 import styled, { ThemeContext } from 'styled-components';
 import endpoints from '../constants/endpoints';
 import ThemeToggler from './ThemeToggler';
+import '../css/navbar.css';
 
 const styles = {
   logoStyle: {
@@ -64,7 +65,7 @@ function NavBar() {
           <Navbar.Brand href="https://github.com/prannoymulmi">
             <img
               src={data?.logo?.source}
-              className="d-inline-block align-top"
+              className="d-inline-block align-top nav-bar-logo"
               alt="main logo"
               style={
                 data?.logo?.height && data?.logo?.width
