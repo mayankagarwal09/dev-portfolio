@@ -6,6 +6,7 @@ import Fade from 'react-reveal';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
+import '../css/about.css';
 
 const styles = {
   introTextContainer: {
@@ -47,7 +48,7 @@ function About(props) {
     <>
       <Header title={header} />
       <div className="section-content-container">
-        <Container>
+        <Container className="about-screen-body-container">
           {data
             ? (
               <Fade>

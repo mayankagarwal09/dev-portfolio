@@ -1,0 +1,6 @@
+@media only screen and (max-width: 500px) {
+    .about-screen-body-container {
+        width: 350px;
+        word-break: break-word;
+    }
+}
