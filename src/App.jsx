@@ -8,6 +8,7 @@ import AppContext from './AppContext';
 import MainApp from './MainApp';
 import GlobalStyles from './theme/GlobalStyles';
 import { lightTheme, darkTheme } from './theme/themes';
+require('dotenv').config()
 
 function App() {
   window.matchMedia = null;
@@ -19,7 +20,7 @@ function App() {
       <ThemeProvider theme={darkMode.value ? darkTheme : lightTheme}>
         <GlobalStyles />
         <div className="App">
-          <BrowserRouter basename={BASE_NAME}>
+          <BrowserRouter basename="/e-portfolio">
             <MainApp />
           </BrowserRouter>
         </div>
