@@ -5,7 +5,6 @@ import {
 } from 'react-bootstrap';
 import Fade from 'react-awesome-reveal';
 import { ThemeContext } from 'styled-components';
-import Accordion from 'react-bootstrap/Accordion';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
