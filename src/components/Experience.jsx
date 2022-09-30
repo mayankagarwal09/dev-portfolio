@@ -3,6 +3,7 @@ import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
 import { Container } from 'react-bootstrap';
 import ReactMarkdown from 'react-markdown';
 import PropTypes from 'prop-types';
+import { v4 as uuidv4 } from 'uuid';
 import { ThemeContext } from 'styled-components';
 import Fade from 'react-awesome-reveal';
 import Header from './Header';
@@ -58,7 +59,7 @@ function Experience(props) {
                 {data.map((item) => (
                   <Fade>
                     <TimelineItem
-                      key={item.title + item.dateText}
+                      key={uuidv4()}
                       dateText={item.dateText}
                       dateInnerStyle={{ background: theme.accentColor }}
                       style={styles.itemStyle}
@@ -81,7 +82,7 @@ function Experience(props) {
                       </div>
                       <ul style={styles.ulStyle}>
                         {item.workDescription.map((point) => (
-                          <div key={point}>
+                          <div key={uuidv4()}>
                             <li>
                               <ReactMarkdown
                                 children={point}

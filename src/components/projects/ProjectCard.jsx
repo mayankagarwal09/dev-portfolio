@@ -33,13 +33,13 @@ const styles = {
   },
 };
 
-function onClick(link) {
+const onClick = (link) => {
   if (link.route) {
     window.open(link.route, '_self');
   } else {
     window.open(link.href, '_blank');
   }
-}
+};
 
 function ProjectCard(props) {
   const theme = useContext(ThemeContext);

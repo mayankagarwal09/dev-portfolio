@@ -65,6 +65,7 @@ function Portfolio() {
                     <ListGroup as="li" numbered>
                       {data.outcome?.slice(0, outcomeLength).map((outcome) => (
                         <ListGroup.Item
+                          key={outcome}
                           style={{
                             backgroundColor: theme.background,
                             color: theme.color,

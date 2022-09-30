@@ -6,7 +6,7 @@
             "links": [
                 {
                     "text": "Portfolio",
-                    "route": "/e-portfolio/portfolio"
+                    "route": "/portfolio"
                 }
             ],
             "tags" : [
