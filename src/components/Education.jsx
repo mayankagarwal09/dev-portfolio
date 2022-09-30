@@ -2,7 +2,7 @@ import React, { useEffect, useState, useContext } from 'react';
 import { Chrono } from 'react-chrono';
 import { Container } from 'react-bootstrap';
 import PropTypes from 'prop-types';
-import Fade from 'react-reveal';
+import Fade from 'react-awesome-reveal';
 import { ThemeContext } from 'styled-components';
 import endpoints from '../constants/endpoints';
 import Header from './Header';

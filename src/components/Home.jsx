@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Typewriter from 'typewriter-effect';
-import Fade from 'react-reveal';
+import Fade from 'react-awesome-reveal';
 import endpoints from '../constants/endpoints';
 import Social from './Social';
 import FallbackSpinner from './FallbackSpinner';

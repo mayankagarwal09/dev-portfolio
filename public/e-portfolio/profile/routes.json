@@ -6,6 +6,11 @@
             "headerTitle": "About"
         },
         {
+            "component": "Portfolio",
+            "path": "/portfolio",
+            "headerTitle": "Portfolio"
+        },
+        {
             "component": "Skills",
             "path": "/skills",
             "headerTitle": "Skills"

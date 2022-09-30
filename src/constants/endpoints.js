@@ -8,6 +8,7 @@ const endpoints = {
   education: './e-portfolio/profile/education.json',
   experiences: './e-portfolio/profile/experiences.json',
   projects: './e-portfolio/profile/projects.json',
+  launchingIntoCS: './e-portfolio/msc/launchingIntoCyberSec.json',
 };
 
 export default endpoints;

@@ -33,6 +33,14 @@ const styles = {
   },
 };
 
+function onClick(link) {
+  if (link.route) {
+    window.open(link.route, '_self');
+  } else {
+    window.open(link.href, '_blank');
+  }
+}
+
 function ProjectCard(props) {
   const theme = useContext(ThemeContext);
   const parseBodyText = (text) => <ReactMarkdown children={text} />;
@@ -60,10 +68,10 @@ function ProjectCard(props) {
         <Card.Body>
           {project?.links?.map((link) => (
             <Button
-              key={link.href}
+              key={link.href ? link.href : link.route}
               style={styles.buttonStyle}
               variant={'outline-' + theme.bsSecondaryVariant}
-              onClick={() => window.open(link.href, '_blank')}
+              onClick={() => onClick(link)}
             >
               {link.text}
             </Button>

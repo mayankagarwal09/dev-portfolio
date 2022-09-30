@@ -1,8 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import ReactMarkdown from 'react-markdown';
-import { Container, Col, Row } from 'react-bootstrap';
-import PropTypes from 'prop-types';
+import {
+  Container, Col, Row, ListGroup,
+} from 'react-bootstrap';
 import Fade from 'react-awesome-reveal';
+import { ThemeContext } from 'styled-components';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
@@ -16,6 +18,7 @@ const styles = {
     textAlign: 'left',
     fontSize: '1.2em',
     fontWeight: 500,
+    marginBottom: 20,
   },
   introImageContainer: {
     margin: 10,
@@ -23,11 +26,14 @@ const styles = {
     alignItems: 'center',
     display: 'flex',
   },
+  header: {
+    margin: '100px 0 50px 0',
+  },
 };
 
-function About(props) {
-  const { header } = props;
+function Portfolio() {
   const [data, setData] = useState(null);
+  const theme = useContext(ThemeContext);
 
   const parseIntro = (text) => (
     <ReactMarkdown
@@ -36,7 +42,7 @@ function About(props) {
   );
 
   useEffect(() => {
-    fetch(endpoints.about, {
+    fetch(endpoints.launchingIntoCS, {
       method: 'GET',
     })
       .then((res) => res.json())
@@ -44,20 +50,36 @@ function About(props) {
       .catch((err) => err);
   }, []);
 
+  const outcomeLength = data ? data.outcome.length : 3;
   return (
     <>
-      <Header title={header} />
-      <div className="section-content-container">
+      <Header title="Launching Into Cyber Security" />
+      <div>
         <Container className="about-screen-body-container">
           {data
             ? (
               <Fade>
                 <Row>
                   <Col style={styles.introTextContainer}>
-                    {parseIntro(data.about)}
+                    <h2 style={styles.header}>Learning Outcomes</h2>
+                    <ListGroup as="li" numbered>
+                      {data.outcome?.slice(0, outcomeLength).map((outcome) => (
+                        <ListGroup.Item
+                          style={{
+                            backgroundColor: theme.background,
+                            color: theme.color,
+                          }}
+                        >
+                          {outcome}
+                        </ListGroup.Item>
+                      ))}
+
+                    </ListGroup>
                   </Col>
-                  <Col style={styles.introImageContainer}>
-                    <img className="about-container-profile-pic" src={data?.imageSource} alt="profile" />
+                </Row>
+                <Row>
+                  <Col style={styles.introTextContainer}>
+                    {parseIntro(data.about)}
                   </Col>
                 </Row>
               </Fade>
@@ -69,8 +91,4 @@ function About(props) {
   );
 }
 
-About.propTypes = {
-  header: PropTypes.string.isRequired,
-};
-
-export default About;
+export default Portfolio;
