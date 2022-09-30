@@ -31,7 +31,7 @@ const styles = {
   },
 };
 
-function Portfolio() {
+function LICS() {
   const [data, setData] = useState(null);
   const theme = useContext(ThemeContext);
 
@@ -92,4 +92,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default LICS;

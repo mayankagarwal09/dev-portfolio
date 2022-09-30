@@ -5,6 +5,7 @@ import {
 import PropTypes from 'prop-types';
 import { ThemeContext } from 'styled-components';
 import ReactMarkdown from 'react-markdown';
+import { Link } from 'react-router-dom';
 
 const styles = {
   badgeStyle: {
@@ -33,14 +34,6 @@ const styles = {
   },
 };
 
-const onClick = (link) => {
-  if (link.route) {
-    window.open(link.route, '_self');
-  } else {
-    window.open(link.href, '_blank');
-  }
-};
-
 function ProjectCard(props) {
   const theme = useContext(ThemeContext);
   const parseBodyText = (text) => <ReactMarkdown children={text} />;
@@ -67,14 +60,28 @@ function ProjectCard(props) {
 
         <Card.Body>
           {project?.links?.map((link) => (
-            <Button
-              key={link.href ? link.href : link.route}
-              style={styles.buttonStyle}
-              variant={'outline-' + theme.bsSecondaryVariant}
-              onClick={() => onClick(link)}
-            >
-              {link.text}
-            </Button>
+            link.route
+              ? (
+                <Link to={link.route}>
+                  <Button
+                    key={link.route}
+                    style={styles.buttonStyle}
+                    variant={'outline-' + theme.bsSecondaryVariant}
+                  >
+                    {link.text}
+                  </Button>
+                </Link>
+              )
+              : (
+                <Button
+                  key={link.href}
+                  style={styles.buttonStyle}
+                  variant={'outline-' + theme.bsSecondaryVariant}
+                  onClick={() => window.open(link.href, '_blank')}
+                >
+                  {link.text}
+                </Button>
+              )
           ))}
         </Card.Body>
         {project.tags && (

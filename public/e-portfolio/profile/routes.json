@@ -6,8 +6,8 @@
             "headerTitle": "About"
         },
         {
-            "component": "Portfolio",
-            "path": "/portfolio",
+            "component": "LICS",
+            "path": "/lics",
             "headerTitle": "Portfolio"
         },
         {

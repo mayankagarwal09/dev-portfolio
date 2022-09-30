@@ -11,6 +11,7 @@ import { lightTheme, darkTheme } from './theme/themes';
 
 function App() {
   window.matchMedia = null;
+  const BASE_NAME = process.env.REACT_APP_BASE_NAME;
   const darkMode = useDarkMode(true);
   const mode = useMemo(() => ({ darkMode }), []);
   return (
@@ -18,7 +19,7 @@ function App() {
       <ThemeProvider theme={darkMode.value ? darkTheme : lightTheme}>
         <GlobalStyles />
         <div className="App">
-          <BrowserRouter basename="/e-portfolio">
+          <BrowserRouter basename={BASE_NAME}>
             <MainApp />
           </BrowserRouter>
         </div>

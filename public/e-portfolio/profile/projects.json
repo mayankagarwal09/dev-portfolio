@@ -1,20 +1,19 @@
 {
     "projects" : [
         {
-            "title": "Launch in Cyber Security",
+            "title": "Launching into Cyber Security",
             "bodyText": "This is a simple CRUD application written in Spring boot framework. This Application allows one to save a users data and query them using their.",
             "links": [
                 {
                     "text": "Portfolio",
-                    "route": "/e-portfolio/portfolio"
+                    "route": "/lics"
                 }
             ],
             "tags" : [
-                "Java",
-                "Spring boot",
+                "Python",
                 "In-memory SQL DB",
-                "Swagger",
-                "Junit"
+                "Network Security",
+                "Privacy Protection"
             ]
         },
         {
