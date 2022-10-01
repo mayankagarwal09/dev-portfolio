@@ -6,6 +6,10 @@
             "headerTitle": "About"
         },
         {
+            "component": "Home",
+            "path": "/home"
+        },
+        {
             "component": "LICS",
             "path": "/lics",
             "headerTitle": "Portfolio"
