@@ -22,8 +22,7 @@ function MainApp() {
       <main className="main">
         <Suspense fallback={<FallbackSpinner />}>
           <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route exact path="/home" element={<Home />} />
+            <Route key="mainPath" exact path="/" element={<Home />} />
             {data
                 && data.sections.map((route) => {
                   const SectionComponent = React.lazy(() => import('./components/' + route.component));
