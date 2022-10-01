@@ -1,4 +1,4 @@
-# Dev LICS  [![GitHub](https://img.shields.io/github/license/mayankagarwal09/dev-portfolio?color=blue)](https://github.com/mayankagarwal09/dev-portfolio/blob/master/LICENSE.md) ![visitors](https://visitor-badge.glitch.me/badge?page_id=mayankagarwal09.dev-portfolio&color=blue)
+# Dev   [![GitHub](https://img.shields.io/github/license/mayankagarwal09/dev-portfolio?color=blue)](https://github.com/mayankagarwal09/dev-portfolio/blob/master/LICENSE.md) ![visitors](https://visitor-badge.glitch.me/badge?page_id=mayankagarwal09.dev-portfolio&color=blue)
 
 ## A minimal portfolio template for Developers!
 
@@ -14,10 +14,6 @@
 ⚡️ Fully Responsive\
 ⚡️ Easily Customizable\
 ⚡️ Well organized documentation
-
-## Demo
-
-To view the demo: **[click here](https://dev-portfolio-mayankagarwal09.vercel.app)**
 
 ## Why do you need a portfolio? ☝️
 
@@ -39,7 +35,7 @@ Also, you can use [Yarn](https://yarnpkg.com/) instead of NPM ☝️
 
 ## Setup 🔧
 
-From your command line, first clone Dev LICS:
+From your command line, first clone Dev:
 
 ```bash
 # Clone the repository
