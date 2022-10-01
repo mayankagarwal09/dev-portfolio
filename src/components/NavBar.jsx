@@ -95,6 +95,7 @@ function NavBar() {
                 </ExternalNavLink>
               ) : (
                 <InternalNavLink
+                  end
                   key={section.title}
                   onClick={() => setExpanded(false)}
                   exact={`${index === 0}`}
