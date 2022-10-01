@@ -98,7 +98,6 @@ function NavBar() {
                   end
                   key={section.title}
                   onClick={() => setExpanded(false)}
-                  exact={`${index === 0}`}
                   className="navbar__link"
                   to={section.href}
                   theme={theme}
