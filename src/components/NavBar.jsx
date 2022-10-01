@@ -81,7 +81,7 @@ function NavBar() {
           <Nav className="me-auto" />
           <Nav>
             {data
-              && data.sections?.map((section) => (section?.type === 'link' ? (
+              && data.sections?.map((section, index) => (section?.type === 'link' ? (
                 <ExternalNavLink
                   key={section.title}
                   href={section.href}
@@ -98,6 +98,7 @@ function NavBar() {
                   end
                   key={section.title}
                   onClick={() => setExpanded(false)}
+                  exact={`${index === 0}`}
                   className="navbar__link"
                   to={section.href}
                   theme={theme}
