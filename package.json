@@ -2,7 +2,7 @@
   "name": "prannoy-eportfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://prannoymulmi.github.io/e-portfolio",
+  "homepage": "https://prannoymulmi.github.io/e-portfolio/",
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@testing-library/jest-dom": "^5.11.4",
