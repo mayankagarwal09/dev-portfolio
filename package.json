@@ -38,8 +38,8 @@
     ]
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "node node_modules/react-scripts/bin/react-scripts start",
+    "build": "node node_modules/react-scripts/bin/react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
