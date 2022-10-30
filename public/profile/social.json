@@ -1,16 +1,28 @@
 {
     "social": [
         {
-            "network" : "linkedin",
-            "href": "https://linkedin.com/"
+            "network": "linkedin",
+            "href": "https://www.linkedin.com/in/selaka-nanayakkara-7b0a4a56/"
         },
         {
-            "network" : "github",
-            "href": "https://github.com/mayankagarwal09"
+            "network": "github",
+            "href": "https://github.com/SelakaKithmal"
         },
         {
-            "network" : "email",
-            "href": "mailto:test@test.com"
+            "network": "stackoverflow",
+            "href": "https://stackoverflow.com/users/4672460/selaka-nanayakkara?tab=topactivity"
+        },
+        {
+            "network": "email",
+            "href": "mailto:selaka.kithmal@gmail.com"
+        },
+        {
+            "network": "twitter",
+            "href": "https://twitter.com/SelakaKithmal"
+        },
+        {
+            "network": "facebook",
+            "href": "https://www.facebook.com/profile.php?id=100002950452810"
         }
     ]
 }
