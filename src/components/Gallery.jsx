@@ -19,7 +19,7 @@ const styles = {
   },
 };
 
-function Skills(props) {
+function Gallery(props) {
   const { header } = props;
   const [data, setData] = useState(null);
 
@@ -70,8 +70,8 @@ function Skills(props) {
   );
 }
 
-Skills.propTypes = {
+Gallery.propTypes = {
   header: PropTypes.string.isRequired,
 };
 
-export default Skills;
+export default Gallery;

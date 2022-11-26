@@ -109,8 +109,8 @@ It has 2 keys, *logo* and *sections*.
             "href": "/about"
         },
         {
-            "title": "Skills",
-            "href": "/skills"
+            "title": "Gallery",
+            "href": "/gallery"
         },
         {
             "title": "Education",
@@ -156,9 +156,9 @@ It has 2 keys, *logo* and *sections*.
             "headerTitle": "About"
         },
         {
-            "component": "Skills",
-            "path": "/skills",
-            "headerTitle": "Skills"
+            "component": "Gallery",
+            "path": "/gallery",
+            "headerTitle": "Gallery"
         },
         {
             "component": "Education",
@@ -259,7 +259,7 @@ It has 2 keys, *logo* and *sections*.
 ```
 {
     "intro": "I love to learn new things and experiment with new technologies.\nThese are some of the major languages, technologies, tools and platforms I have worked with:",
-    "skills": [{
+    "Gallery": [{
      
             "title": "Languages",
             "items" : [

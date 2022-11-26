@@ -6,9 +6,9 @@
             "headerTitle": "About"
         },
         {
-            "component": "Skills",
-            "path": "/skills",
-            "headerTitle": "Skills"
+            "component": "Gallery",
+            "path": "/gallery",
+            "headerTitle": "Gallery"
         },
         {
             "component": "Education",
