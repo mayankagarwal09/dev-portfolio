@@ -30,7 +30,7 @@ function Gallery(props) {
   );
 
   useEffect(() => {
-    fetch(endpoints.skills, {
+    fetch(endpoints.gallery, {
       method: 'GET',
     })
       .then((res) => res.json())
@@ -46,7 +46,7 @@ function Gallery(props) {
           <div className="section-content-container">
             <Container>
               {renderSkillsIntro(data.intro)}
-              {data.skills?.map((rows) => (
+              {data.gallery?.map((rows) => (
                 <div key={rows.title}>
                   <br />
                   <h3>{rows.title}</h3>
