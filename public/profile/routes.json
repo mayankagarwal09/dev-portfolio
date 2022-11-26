@@ -1,11 +1,6 @@
 {
     "sections": [
         {
-            "component": "About",
-            "path": "/about",
-            "headerTitle": "About"
-        },
-        {
             "component": "Gallery",
             "path": "/gallery",
             "headerTitle": "Gallery"
@@ -24,6 +19,16 @@
             "component": "Projects",
             "path": "/projects",
             "headerTitle": "Projects"
+        },
+        {
+            "component": "Team",
+            "path": "/team",
+            "headerTitle": "Team"
+        },
+        {
+            "component": "About",
+            "path": "/about",
+            "headerTitle": "About"
         }
     ]
 }

@@ -14,6 +14,14 @@
             "href": "/about"
         },
         {
+            "title": "Projects",
+            "href": "/projects"
+        },
+        {
+            "title": "Team",
+            "href": "/team"
+        },
+        {
             "title": "Gallery",
             "href": "/gallery"
         },
@@ -24,10 +32,6 @@
         {
             "title": "Experience",
             "href": "/experience"
-        },
-        {
-            "title": "Projects",
-            "href": "/projects"
         },
         {
             "title": "Resume",
