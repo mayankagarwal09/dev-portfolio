@@ -17,65 +17,19 @@
             ]
         },
         {
-            "title": "User management service",
-            "bodyText": "This is a simple CRUD application written in Spring boot framework. This Application allows one to save a users data and query them using their.",
+            "title": "Security and Risk management",
+            "bodyText": "Module which focuses on  security risk management.",
             "links": [
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/prannoymulmi/usermanagmentservice"
+                    "text": "Portfolio",
+                    "route": "/srm_main"
                 }
             ],
             "tags" : [
-                "Java",
-                "Spring boot",
-                "In-memory SQL DB",
-                "Swagger",
-                "Junit"
-            ]
-        },
-        {
-            "title": "aws_infrastructure",
-            "bodyText": "This rudimentary terraform setup to deploy aws services",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/prannoymulmi/aws_infrastructure"
-                }
-            ],
-            "tags" : [
-                "Terraform",
-                "Bash"
-            ]
-        },
-        {
-            "title": "Fizzbuzz Service",
-            "bodyText": "This rudimentary terraform setup to deploy aws services",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/prannoymulmi/aws_infrastructure"
-                }
-            ],
-            "tags" : [
-                "Terraform",
-                "Bash"
-            ]
-        },
-        {
-            "title": "Todo list Back end",
-            "bodyText": "A Todo list service implemented in dot net core",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/prannoymulmi/TodoListAPI_Dotnet_Core"
-                }
-            ],
-            "tags" : [
-                "Donet core",
-                "C#",
-                "MVC",
-                "Rest API",
-                "JWT"
+                "Qualitative Risk management",
+                "Quantitative Risk management",
+                "Open Fair",
+                "Industry 4.0"
             ]
         }
     ]

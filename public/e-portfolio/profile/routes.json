@@ -15,6 +15,11 @@
             "headerTitle": "Portfolio"
         },
         {
+            "component": "SRMMain",
+            "path": "/srm_main",
+            "headerTitle": "SRM Portfolio"
+        },
+        {
             "component": "Skills",
             "path": "/skills",
             "headerTitle": "Skills"
@@ -32,7 +37,7 @@
         {
             "component": "Projects",
             "path": "/projects",
-            "headerTitle": "Projects"
+            "headerTitle": "Modules"
         }
     ]
 }
