@@ -15,7 +15,7 @@
             "headerTitle": "Portfolio"
         },
         {
-            "component": "SRMMain",
+            "component": "SRM/SRMMain",
             "path": "/srm_main",
             "headerTitle": "SRM Portfolio"
         },

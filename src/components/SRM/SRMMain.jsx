@@ -5,10 +5,10 @@ import {
 } from 'react-bootstrap';
 import Fade from 'react-awesome-reveal';
 import { ThemeContext } from 'styled-components';
-import Header from './Header';
-import endpoints from '../constants/endpoints';
-import FallbackSpinner from './FallbackSpinner';
-import '../css/about.css';
+import Header from '../Header';
+import endpoints from '../../constants/endpoints';
+import FallbackSpinner from '../FallbackSpinner';
+import '../../css/about.css';
 
 const styles = {
   introTextContainer: {
@@ -42,7 +42,7 @@ function SRMMain() {
   );
 
   useEffect(() => {
-    fetch(endpoints.launchingIntoCS, {
+    fetch(endpoints.srmMain, {
       method: 'GET',
     })
       .then((res) => res.json())
@@ -80,7 +80,7 @@ function SRMMain() {
                 </Row>
                 <Row>
                   <Col style={styles.introTextContainer}>
-                    <h2 style={styles.header}>Artefacts</h2>
+                    <h2 style={styles.header}>Unit 2</h2>
                     {parseIntro(data.about)}
                   </Col>
                 </Row>
