@@ -29,6 +29,9 @@ const styles = {
   header: {
     margin: '100px 0 50px 0',
   },
+  unitText: {
+    padding: '50px 0 0 0',
+  },
 };
 
 function SRMMain() {
@@ -81,7 +84,23 @@ function SRMMain() {
                 <Row>
                   <Col style={styles.introTextContainer}>
                     <h2 style={styles.header}>Unit 2</h2>
-                    {parseIntro(data.about)}
+                    <h4>Learning Outcomes</h4>
+                    <ListGroup as="li" numbered>
+                      {data.unit2.outcome?.slice(0, outcomeLength).map((outcome) => (
+                        <ListGroup.Item
+                          key={outcome}
+                          style={{
+                            backgroundColor: theme.background,
+                            color: theme.color,
+                          }}
+                        >
+                          {outcome}
+                        </ListGroup.Item>
+                      ))}
+                    </ListGroup>
+                    <div style={styles.unitText}>
+                      {parseIntro(data.unit2.details)}
+                    </div>
                   </Col>
                 </Row>
                 <Row>
