@@ -56,7 +56,7 @@ function SRMMain() {
   const outcomeLength = data ? data.outcome.length : 3;
   return (
     <>
-      <Header title="SRM" />
+      <Header title="Security and Risk Management" />
       <div>
         <Container className="about-screen-body-container">
           {data
