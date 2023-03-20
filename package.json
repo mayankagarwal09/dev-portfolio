@@ -21,6 +21,7 @@
     "react-router-dom": "6.4.1",
     "react-scripts": "5.0.1",
     "react-social-icons": "^5.6.1",
+    "rehype-raw": "^6.1.1",
     "styled-components": "^5.3.1",
     "typewriter-effect": "^2.18.2",
     "use-dark-mode": "^2.3.1",
@@ -52,8 +53,8 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "eslint": "8.23.1",
     "env-cmd": "^10.1.0",
+    "eslint": "8.23.1",
     "eslint-config-airbnb": "19.0.4",
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-jsx-a11y": "^6.4.1",

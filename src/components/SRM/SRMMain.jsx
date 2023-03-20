@@ -1,10 +1,12 @@
 import React, { useState, useEffect, useContext } from 'react';
 import ReactMarkdown from 'react-markdown';
 import {
-  Container, Col, Row, ListGroup,
+  Container, Col, Row, ListGroup, Button,
 } from 'react-bootstrap';
 import Fade from 'react-awesome-reveal';
 import { ThemeContext } from 'styled-components';
+import rehypeRaw from 'rehype-raw';
+import { Link } from 'react-router-dom';
 import Header from '../Header';
 import endpoints from '../../constants/endpoints';
 import FallbackSpinner from '../FallbackSpinner';
@@ -41,6 +43,7 @@ function SRMMain() {
   const parseIntro = (text) => (
     <ReactMarkdown
       children={text}
+      rehypePlugins={[rehypeRaw]}
     />
   );
 
@@ -100,6 +103,15 @@ function SRMMain() {
                     </ListGroup>
                     <div style={styles.unitText}>
                       {parseIntro(data.unit2.details)}
+                      <Link to="/srm_activity1">
+                        <Button
+                          key="/srm_activity1"
+                          style={styles.buttonStyle}
+                          variant={'outline-' + theme.bsSecondaryVariant}
+                        >
+                          Learn More
+                        </Button>
+                      </Link>
                     </div>
                   </Col>
                 </Row>

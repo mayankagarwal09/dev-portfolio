@@ -20,6 +20,11 @@
             "headerTitle": "SRM Portfolio"
         },
         {
+            "component": "SRM/Activity1",
+            "path": "/srm_activity1",
+            "headerTitle": "Activity1"
+        },
+        {
             "component": "Skills",
             "path": "/skills",
             "headerTitle": "Skills"
