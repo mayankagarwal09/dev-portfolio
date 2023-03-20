@@ -1,18 +1,32 @@
 {
-    "heading": "Launching Into Cyber Security",
-    "outcome": [
-        "Describe when to use qualitative and quantitative risk assessments.",
-        "Create threat models for various scenarios.",
-        "Create quantitative risk models.",
-        "Design and explain DR strategies and solutions."
-    ],
-    "unit2": {
-        "details": "<h3>Activity</h3>\n\n <b>Title</b>: User Participation in the Risk Management Process.\n\n This activity analyzes the research paper written by Spears & Barki (2010) article and the use of qualitative and quantitative risk analysis methods used in the articles. In addition, also the impact of user participation in the risk analysis process is reviewed.",
-        "outcome": [
-            "Discuss the differences between assessment approaches (Qualitative vs. Quantitative).",
-            "Explain the importance of user participation in the risk management process.",
-            "Discuss the implications of any recommended mitigations."
-        ]
+  "heading": "Launching Into Cyber Security",
+  "outcome": [
+    "Describe when to use qualitative and quantitative risk assessments.",
+    "Create threat models for various scenarios.",
+    "Create quantitative risk models.",
+    "Design and explain DR strategies and solutions."
+  ],
+  "units": [
+    {
+      "title": "Unit 1",
+      "details": "<h3>Activity</h3>\n\n <b>Title</b>: User Participation in the Risk Management Process.\n\n This activity analyzes the research paper written by Spears & Barki (2010) article and the use of qualitative and quantitative risk analysis methods used in the articles. In addition, also the impact of user participation in the risk analysis process is reviewed.",
+      "outcome": [
+        "Discuss the differences between assessment approaches (Qualitative vs. Quantitative).",
+        "Explain the importance of user participation in the risk management process.",
+        "Discuss the implications of any recommended mitigations."
+      ],
+      "route": "/srm_activity"
     },
-    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do\n          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad\n          minim veniam, quis nostrud exercitation ullamco laboris nisi ut\n          aliquip ex ea commodo consequat. Duis aute irure dolor in\n          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla\n          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in\n          culpa qui officia deserunt mollit anim id est laborum."
+    {
+      "title": "Unit 2",
+      "details": "<h3>Activity</h3>\n\n <b>Title</b>: User Participation in the Risk Management Process.\n\n This activity analyzes the research paper written by Spears & Barki (2010) article and the use of qualitative and quantitative risk analysis methods used in the articles. In addition, also the impact of user participation in the risk analysis process is reviewed.",
+      "outcome": [
+        "Discuss the differences between assessment approaches (Qualitative vs. Quantitative).",
+        "Explain the importance of user participation in the risk management process.",
+        "Discuss the implications of any recommended mitigations."
+      ],
+      "route": "/srm_activity1"
+    }
+  ],
+  "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do\n          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad\n          minim veniam, quis nostrud exercitation ullamco laboris nisi ut\n          aliquip ex ea commodo consequat. Duis aute irure dolor in\n          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla\n          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in\n          culpa qui officia deserunt mollit anim id est laborum."
 }

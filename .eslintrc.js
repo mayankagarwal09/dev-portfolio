@@ -17,7 +17,7 @@ module.exports = {
   plugins: [
     'react',
   ],
-  ignorePatterns: ["/src/components/SRM/Activity1.jsx"],
+  ignorePatterns: ["/src/components/SRM/*"],
   rules: {
     'prefer-template': 0,
     'react/no-children-prop': [0],

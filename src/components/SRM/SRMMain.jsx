@@ -84,12 +84,14 @@ function SRMMain() {
                     </ListGroup>
                   </Col>
                 </Row>
-                <Row>
+                <hr />
+                {data.units?.map((unit) => (
+                 <Row>
                   <Col style={styles.introTextContainer}>
-                    <h2 style={styles.header}>Unit 2</h2>
+                    <h2 style={styles.header}>{unit.title}</h2>
                     <h4>Learning Outcomes</h4>
                     <ListGroup as="li" numbered>
-                      {data.unit2.outcome?.slice(0, outcomeLength).map((outcome) => (
+                      {unit.outcome?.slice(0, outcomeLength).map((outcome) => (
                         <ListGroup.Item
                           key={outcome}
                           style={{
@@ -102,10 +104,10 @@ function SRMMain() {
                       ))}
                     </ListGroup>
                     <div style={styles.unitText}>
-                      {parseIntro(data.unit2.details)}
-                      <Link to="/srm_activity1">
+                      {parseIntro(unit.details)}
+                      <Link to={unit.route}>
                         <Button
-                          key="/srm_activity1"
+                          key={unit.route}
                           style={styles.buttonStyle}
                           variant={'outline-' + theme.bsSecondaryVariant}
                         >
@@ -114,7 +116,9 @@ function SRMMain() {
                       </Link>
                     </div>
                   </Col>
-                </Row>
+                 <hr />
+                 </Row>
+                ))}
                 <Row>
                   <Col style={styles.introTextContainer}>
                     <h2 style={styles.header}>Reflections</h2>
