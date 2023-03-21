@@ -9,13 +9,14 @@
   "units": [
     {
       "title": "Unit 1",
+      "details": "<h3>\nCollaborative Learning Discussion 1</h3>\n\n <h4>Discussion Topic</h4>\nBased on your reading of the case study(Kovaitė and Stankevičienė, 2019) answer the following questions in the discussion forum: \n\n<ul><li>What do the authors mean by the term ‘Industry 4.0’ - give two examples.</li><li>Give two real-world examples of risks that fit into the authors categories.</li><li>Find another journal article that either supports or contradicts the points made in the cited study.</li></ul>",
       "outcome": [
         "Discuss the various definitions of risk.",
         "Explain how to assess, qualify and mitigate risks.",
         "Describe various approaches to quantify and qualify risks.",
         "List common security and risk standards and select the appropriate one(s) for a given situation."
       ],
-      "route": "/srm_activity"
+      "route": "/srm_d1"
     },
     {
       "title": "Unit 2",

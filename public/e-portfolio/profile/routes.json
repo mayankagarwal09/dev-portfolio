@@ -25,6 +25,11 @@
             "headerTitle": "Activity1"
         },
         {
+            "component": "SRM/Discussion1",
+            "path": "/srm_d1",
+            "headerTitle": "SRM Discussion 1 Initial Post"
+        },
+        {
             "component": "Skills",
             "path": "/skills",
             "headerTitle": "Skills"
