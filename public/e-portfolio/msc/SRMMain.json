@@ -9,11 +9,11 @@
   "units": [
     {
       "title": "Unit 1",
-      "details": "<h3>Activity</h3>\n\n <b>Title</b>: User Participation in the Risk Management Process.\n\n This activity analyzes the research paper written by Spears & Barki (2010) article and the use of qualitative and quantitative risk analysis methods used in the articles. In addition, also the impact of user participation in the risk analysis process is reviewed.",
       "outcome": [
-        "Discuss the differences between assessment approaches (Qualitative vs. Quantitative).",
-        "Explain the importance of user participation in the risk management process.",
-        "Discuss the implications of any recommended mitigations."
+        "Discuss the various definitions of risk.",
+        "Explain how to assess, qualify and mitigate risks.",
+        "Describe various approaches to quantify and qualify risks.",
+        "List common security and risk standards and select the appropriate one(s) for a given situation."
       ],
       "route": "/srm_activity"
     },

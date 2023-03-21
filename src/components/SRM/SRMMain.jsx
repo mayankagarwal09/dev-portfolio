@@ -103,18 +103,20 @@ function SRMMain() {
                         </ListGroup.Item>
                       ))}
                     </ListGroup>
-                    <div style={styles.unitText}>
-                      {parseIntro(unit.details)}
-                      <Link to={unit.route}>
-                        <Button
-                          key={unit.route}
-                          style={styles.buttonStyle}
-                          variant={'outline-' + theme.bsSecondaryVariant}
-                        >
-                          Learn More
-                        </Button>
-                      </Link>
-                    </div>
+                    {unit.details && (
+                      <div style={styles.unitText}>
+                        {parseIntro(unit.details)}
+                        <Link to={unit.route}>
+                          <Button
+                              key={unit.route}
+                              style={styles.buttonStyle}
+                              variant={'outline-' + theme.bsSecondaryVariant}
+                          >
+                            Learn More
+                          </Button>
+                        </Link>
+                      </div>
+                    )}
                   </Col>
                  <hr />
                  </Row>
