@@ -42,6 +42,10 @@
         {
           "activity": "<h3>\nCollaborative Learning Discussion 1 Summary Post</h3>\n\n <h4>Discussion Topic</h4>\nBased on your reading of the case study(Kovaitė and Stankevičienė, 2019) answer the following questions in the discussion forum: \n\n<ul><li>What do the authors mean by the term ‘Industry 4.0’ - give two examples.</li><li>Give two real-world examples of risks that fit into the authors categories.</li><li>Find another journal article that either supports or contradicts the points made in the cited study.</li></ul>",
           "route": "/srm_d1_summary"
+        },
+        {
+          "activity": "<h3> Team Meeting: Drafted Team Contract</h3>\n\n As the module consists of few group assigment the team members assigned joined a virtual meet to draft our first team contract. This team contract describes the commitments and goals each member agreed upon.",
+          "route": "/srm_team_contract"
         }
       ],
       "outcome": [

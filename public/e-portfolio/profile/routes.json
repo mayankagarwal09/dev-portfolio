@@ -35,6 +35,11 @@
             "headerTitle": "SRM Discussion 1 Summary Post"
         },
         {
+            "component": "SRM/SRMTeamContract",
+            "path": "/srm_team_contract",
+            "headerTitle": "SRM Team Contract"
+        },
+        {
             "component": "Skills",
             "path": "/skills",
             "headerTitle": "Skills"
