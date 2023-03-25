@@ -103,20 +103,26 @@ function SRMMain() {
                         </ListGroup.Item>
                       ))}
                     </ListGroup>
-                    {unit.details && (
-                      <div style={styles.unitText}>
-                        {parseIntro(unit.details)}
-                        <Link to={unit.route}>
-                          <Button
-                              key={unit.route}
-                              style={styles.buttonStyle}
-                              variant={'outline-' + theme.bsSecondaryVariant}
-                          >
-                            Learn More
-                          </Button>
-                        </Link>
-                      </div>
-                    )}
+                    {unit.details?.map((detail) => (
+                      detail && (
+                            <div
+                                style={styles.unitText}
+                                key={detail.route}
+                            >
+                              {parseIntro(detail.activity)}
+                              <Link to={detail.route}>
+                                <Button
+                                    key={detail.route}
+                                    style={styles.buttonStyle}
+                                    variant={'outline-' + theme.bsSecondaryVariant}
+                                >
+                                  Learn More
+                                </Button>
+                              </Link>
+                            </div>
+                        )
+                    ))}
+
                   </Col>
                  <hr />
                  </Row>
