@@ -30,6 +30,11 @@
             "headerTitle": "SRM Discussion 1 Initial Post"
         },
         {
+            "component": "SRM/SRMDiscussion1Summary",
+            "path": "/srm_d1_summary",
+            "headerTitle": "SRM Discussion 1 Summary Post"
+        },
+        {
             "component": "Skills",
             "path": "/skills",
             "headerTitle": "Skills"

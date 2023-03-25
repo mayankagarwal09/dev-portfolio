@@ -17,7 +17,7 @@
             ]
         },
         {
-            "image" : "../../e-portfolio/images/srm_module_card_image.png",
+            "image" : "../images/srm_module_card_image.png",
             "title": "Security and Risk management",
             "bodyText": "Module which focuses on  security risk management.",
             "links": [

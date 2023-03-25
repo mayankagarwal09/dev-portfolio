@@ -27,6 +27,16 @@
         "Discuss the implications of any recommended mitigations."
       ],
       "route": "/srm_activity1"
+    },
+    {
+      "title": "Unit 3",
+      "details": "<h3>\nCollaborative Learning Discussion 1 Summary Post</h3>\n\n <h4>Discussion Topic</h4>\nBased on your reading of the case study(Kovaitė and Stankevičienė, 2019) answer the following questions in the discussion forum: \n\n<ul><li>What do the authors mean by the term ‘Industry 4.0’ - give two examples.</li><li>Give two real-world examples of risks that fit into the authors categories.</li><li>Find another journal article that either supports or contradicts the points made in the cited study.</li></ul>",
+      "outcome": [
+        "Describe a number of threat modelling techniques.",
+        "Advise which technique should be used in specific situations.",
+        "Discuss when techniques should be combined in a hybrid model."
+      ],
+      "route": "/srm_d1_summary"
     }
   ],
   "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do\n          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad\n          minim veniam, quis nostrud exercitation ullamco laboris nisi ut\n          aliquip ex ea commodo consequat. Duis aute irure dolor in\n          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla\n          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in\n          culpa qui officia deserunt mollit anim id est laborum."
