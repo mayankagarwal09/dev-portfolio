@@ -40,6 +40,16 @@
             "headerTitle": "SRM Team Contract"
         },
         {
+            "component": "SRM/SRMThreatModeling",
+            "path": "/srm_threat_model",
+            "headerTitle": "SRM ThreatModeling"
+        },
+        {
+            "component": "SRM/SRMTeamContractUnit4",
+            "path": "/srm_team_agreement_unit4",
+            "headerTitle": "SRM Team Agreement Unit 4"
+        },
+        {
             "component": "Skills",
             "path": "/skills",
             "headerTitle": "Skills"

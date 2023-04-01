@@ -53,6 +53,24 @@
         "Advise which technique should be used in specific situations.",
         "Discuss when techniques should be combined in a hybrid model."
       ]
+    },
+    {
+      "title": "Unit 4",
+      "details": [
+        {
+          "activity": "<h3>\nTitle: Threat Modelling Exercises</h3>\n\n <h4>A large international airport based in the United States of America.</h4>\n <ul><li> Used Threat modelling Manifesto, the OWASP Threat modelling Cookbook and the ATT&CK libraries created an attack tree threat model to identify some risks and threats possible in a large airport in the USA.</li><li>Created a data flow diagram to visualize the use cases possible in the airport </li></ul> ",
+          "route": "/srm_threat_model"
+        },
+        {
+          "activity": "<h3> Team Meeting: Assigment 1 Initial Meeting</h3>\n\n The protocol of the meeting held on 29.03.2023 for SRM group 2. ",
+          "route": "/srm_team_agreement_unit4"
+        }
+      ],
+      "outcome": [
+        "Describe where to find the key tools and resources used for threat modelling.",
+        "Explain how to select the most appropriate tool for various situations.",
+        "Critically evaluate the use of threat modeling tools."
+      ]
     }
   ],
   "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do\n          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad\n          minim veniam, quis nostrud exercitation ullamco laboris nisi ut\n          aliquip ex ea commodo consequat. Duis aute irure dolor in\n          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla\n          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in\n          culpa qui officia deserunt mollit anim id est laborum."
