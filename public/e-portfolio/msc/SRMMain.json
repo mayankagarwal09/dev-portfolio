@@ -71,6 +71,20 @@
         "Explain how to select the most appropriate tool for various situations.",
         "Critically evaluate the use of threat modeling tools."
       ]
+    },
+    {
+      "title": "Unit 5",
+      "details": [
+        {
+          "activity": "<h3>\nTitle: GDPR Case Study</h3>\n\n <h4> Case Study: Right to be Forgotten - 2017</h4>\n <ul><li>Read the case study and researched the related gdpr directives. </li><li> Added Mitigations for the case if it were my organizations.</li></ul> ",
+          "route": "/srm_gdpr_case_study"
+        }
+      ],
+      "outcome": [
+        "Explore industry specific security standards and directives.",
+        "Discuss how standards affect security and risk assessments.",
+        "Review a number of common industry and enterprise standards."
+      ]
     }
   ],
   "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do\n          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad\n          minim veniam, quis nostrud exercitation ullamco laboris nisi ut\n          aliquip ex ea commodo consequat. Duis aute irure dolor in\n          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla\n          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in\n          culpa qui officia deserunt mollit anim id est laborum."

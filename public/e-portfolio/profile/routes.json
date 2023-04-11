@@ -50,6 +50,11 @@
             "headerTitle": "SRM Team Agreement Unit 4"
         },
         {
+            "component": "SRM/SRMGDPRCaseStudy",
+            "path": "/srm_gdpr_case_study",
+            "headerTitle": "SRM GDPR Case Study"
+        },
+        {
             "component": "Skills",
             "path": "/skills",
             "headerTitle": "Skills"
