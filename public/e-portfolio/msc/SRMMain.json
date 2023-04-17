@@ -85,6 +85,27 @@
         "Discuss how standards affect security and risk assessments.",
         "Review a number of common industry and enterprise standards."
       ]
+    },
+    {
+      "title": "Unit 6",
+      "details": [
+        {
+          "activity": "<h3>\nTitle: Security Frameworks Analysis</h3>\n<h4> Case Study: Frameworks used in various sectors</h4><ul><li>Read and researched the different security frameworks.</li><li> Analyzed which frameworks can be used in which industries.</li><li>The limitations of the frameworks were also researched.</li></ul>",
+          "route": "/srm_sec_frameworks"
+        },
+        {
+          "activity": "<h3>\nTitle: Team Meeting: Assignment 1 Final Meeting </h3>\n<h4> Submission and Preparation of Assignment 1</h4><ul><li>Formatted and edited the report.</li><li> Proof read the report.</li><li> Made subgroups to start work for assignment 2.</li></ul>"
+        },
+        {
+          "activity": "<h3>\nTitle: Assignment 1: Contributions </h3>\n\n<ul><li>Made Architectural diagrams for digitized and non digitized pampered pets.</li><li> Carried out STRIDE threat modeling and risk analysis for the digital transformation.</li><li> Researched and collected which components to implement for the transformation.</li><li> Collected data to support the way to digital transformation of the store.</li></ul> ",
+          "downloadLink": "https://drive.google.com/uc?export=download&id=10WYEHmFmLwa2lAPLd9hQkTvQLSIfBkVX"
+        }
+      ],
+      "outcome": [
+        "Explain which GDPR regulations are applicable in specific situations.",
+        "Describe which other standards might apply in selected situations.",
+        "Advise on mitigations to help a business meet any of the standards applicable to its specific industry (such as data and privacy (GDPR) or financial (PCI-DSS)) , and other standards."
+      ]
     }
   ],
   "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do\n          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad\n          minim veniam, quis nostrud exercitation ullamco laboris nisi ut\n          aliquip ex ea commodo consequat. Duis aute irure dolor in\n          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla\n          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in\n          culpa qui officia deserunt mollit anim id est laborum."

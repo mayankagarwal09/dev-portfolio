@@ -110,15 +110,28 @@ function SRMMain() {
                                 key={detail.route}
                             >
                               {parseIntro(detail.activity)}
-                              <Link to={detail.route}>
-                                <Button
-                                    key={detail.route}
-                                    style={styles.buttonStyle}
-                                    variant={'outline-' + theme.bsSecondaryVariant}
-                                >
-                                  Learn More
-                                </Button>
-                              </Link>
+                              {detail.route &&
+                                  <Link to={detail.route}>
+                                      <Button
+                                          key={detail.route}
+                                          style={styles.buttonStyle}
+                                          variant={'outline-' + theme.bsSecondaryVariant}
+                                      >
+                                          Learn More
+                                      </Button>
+                                  </Link>
+                              }
+                                {detail.downloadLink &&
+                                      <a href={detail.downloadLink}>
+                                        <Button
+                                            key={detail.route}
+                                            style={styles.buttonStyle}
+                                            variant={'outline-' + theme.bsSecondaryVariant}
+                                        >
+                                          Download File
+                                        </Button>
+                                      </a>
+                                }
                             </div>
                         )
                     ))}

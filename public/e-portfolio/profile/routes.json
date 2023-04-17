@@ -55,6 +55,11 @@
             "headerTitle": "SRM GDPR Case Study"
         },
         {
+            "component": "SRM/SRMSecFrameworks",
+            "path": "/srm_sec_frameworks",
+            "headerTitle": "SRM Security Frameworks"
+        },
+        {
             "component": "Skills",
             "path": "/skills",
             "headerTitle": "Skills"
