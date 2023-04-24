@@ -106,6 +106,22 @@
         "Describe which other standards might apply in selected situations.",
         "Advise on mitigations to help a business meet any of the standards applicable to its specific industry (such as data and privacy (GDPR) or financial (PCI-DSS)) , and other standards."
       ]
+    },
+    {
+      "title": "Unit 7",
+      "details": [
+        {
+          "activity": "<h3>\nCollaborative Learning Discussion 2 Initial Post</h3>\n\n <h4>Discussion Topic</h4>><ul><li>Read Spring et al (2021) and researched about the alternatives to CVSS.</li><li>What is CVSS and what are its pitfalls.</li><li>Searched for examples how CVSS fails in the real world.</li></ul>",
+          "route": "/srm_d2"
+        },
+        {
+          "activity": "<h3>\nTitle: Team Meeting: Assignment 2 Initial Meeting </h3>\n<h4> Starting Assignment 2</h4><ul><li>Read and highlighted main points in the assignment.</li><li>Shared additional reading materials.</li><li>Started Brainstorming for the Disaster recovery section.</li></ul>"
+        }
+      ],
+      "outcome": [
+        "Reviewed different approaches to QRM including Monte Carlo Simulations and Bayes theoretical models.",
+        "Critically evaluate the pros and cons of different Quantitative Risk modeling."
+      ]
     }
   ],
   "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do\n          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad\n          minim veniam, quis nostrud exercitation ullamco laboris nisi ut\n          aliquip ex ea commodo consequat. Duis aute irure dolor in\n          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla\n          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in\n          culpa qui officia deserunt mollit anim id est laborum."

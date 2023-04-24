@@ -60,6 +60,11 @@
             "headerTitle": "SRM Security Frameworks"
         },
         {
+            "component": "SRM/SRMDiscussion2",
+            "path": "/srm_d2",
+            "headerTitle": "SRM Discussion 2 Initial Post"
+        },
+        {
             "component": "Skills",
             "path": "/skills",
             "headerTitle": "Skills"
