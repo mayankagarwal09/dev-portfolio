@@ -65,6 +65,11 @@
             "headerTitle": "SRM Discussion 2 Initial Post"
         },
         {
+            "component": "SRM/SRMQRMEvaluate",
+            "path": "/srm_qrm_evaluate",
+            "headerTitle": "SRM Security Frameworks"
+        },
+        {
             "component": "Skills",
             "path": "/skills",
             "headerTitle": "Skills"

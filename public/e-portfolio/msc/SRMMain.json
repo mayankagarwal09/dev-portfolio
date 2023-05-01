@@ -115,12 +115,29 @@
           "route": "/srm_d2"
         },
         {
-          "activity": "<h3>\nTitle: Team Meeting: Assignment 2 Initial Meeting </h3>\n<h4> Starting Assignment 2</h4><ul><li>Read and highlighted main points in the assignment.</li><li>Shared additional reading materials.</li><li>Started Brainstorming for the Disaster recovery section.</li></ul>"
+          "activity": "<h3>\nTitle: Team Meeting: Assignment 2 Initial Meeting </h3>\n<h4> Starting Assignment 2</h4><ul><li>Read and highlighted main points in the assignment.</li><li>Shared additional reading materials.</li><li>Started Brainstorming for the appropriate QRM methodology.</li></ul>"
         }
       ],
       "outcome": [
         "Reviewed different approaches to QRM including Monte Carlo Simulations and Bayes theoretical models.",
         "Critically evaluate the pros and cons of different Quantitative Risk modeling."
+      ]
+    },
+    {
+      "title": "Unit 7",
+      "details": [
+        {
+          "activity": "<h3>QRM Evaluation</h3>\n\n <h4>Discussion Topic</h4><ul><li>Read Goerlandt et al (2017), Hugo et al (2018) and Çelikbilek & Tüysüz (2020) and Goerlandt et al (2017) to evaluate various QRM Techniques</li><li>Evaluate the validity of the QRM process.</li><li>Using Monte carlo simulations for project management.</li><li>Evaluated different MCDMs like TOPSIS and SMART.</li></ul>",
+          "route": "/srm_qrm_evaluate"
+        },
+        {
+          "activity": "<h3>\nTitle: Team Meeting: Assignment 2</h3>\n<h4> Brain Storming Session</h4><ul><li>Collected initial requirements and questions to be clarified.</li><li>Research on M</li><li>Started Brainstorming for risks present in the supply chain.</li><li>Created initial document to note all the ideas.</li></ul>"
+        }
+      ],
+      "outcome": [
+        "Applied QRM to real world problems.",
+        "Evaluated QRM techniques like TOPSIS and SMART.",
+        "Ran Monte carlo simulation on Inventory example provided by YASAI."
       ]
     }
   ],
