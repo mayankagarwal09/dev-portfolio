@@ -78,4 +78,4 @@ function SRMQRMEvaluate() {
     );
 }
 
-export default SRMThreatModeling;
+export default SRMQRMEvaluate;

@@ -67,7 +67,7 @@
         {
             "component": "SRM/SRMQRMEvaluate",
             "path": "/srm_qrm_evaluate",
-            "headerTitle": "SRM Security Frameworks"
+            "headerTitle": "SRM SRMQRMEvaluate"
         },
         {
             "component": "Skills",
