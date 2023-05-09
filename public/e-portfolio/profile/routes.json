@@ -70,6 +70,11 @@
             "headerTitle": "SRM SRMQRMEvaluate"
         },
         {
+            "component": "SRM/SRMDiscussion2Summary",
+            "path": "/srm_d2_summary",
+            "headerTitle": "SRM Discussion 2 Summary Post"
+        },
+        {
             "component": "Skills",
             "path": "/skills",
             "headerTitle": "Skills"
