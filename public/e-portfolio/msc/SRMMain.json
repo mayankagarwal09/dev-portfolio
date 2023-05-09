@@ -148,7 +148,7 @@
           "route": "/srm_d2_summary"
         },
         {
-          "activity": "<h3>\nTitle: Team Meeting: Assignment 2</h3>\n<h4> Brain Storming Session</h4><ul><li>Collected initial requirements and questions to be clarified.</li><li>Started Brainstorming for risks present in the supply chain.</li><li>Created initial document to note all the ideas.</li></ul>"
+          "activity": "<h3>\nTitle: Team Meeting: Assignment 2</h3>\n<h4> Brain Storming Session</h4><ul><li>Determined the different types of risks surrounding supply chain.</li><li>Started research if the which analysis is fit for our case between MCS, TOPSIS, and Open Fair framework.</li><li>Sub divided to group to collect data for the different risks identified.</li></ul>"
         }
       ],
       "outcome": [
