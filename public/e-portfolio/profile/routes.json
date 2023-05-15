@@ -75,6 +75,11 @@
             "headerTitle": "SRM Discussion 2 Summary Post"
         },
         {
+            "component": "SRM/SRMDRSol",
+            "path": "/srm_dr_sol",
+            "headerTitle": "SRM Unit 10"
+        },
+        {
             "component": "Skills",
             "path": "/skills",
             "headerTitle": "Skills"
