@@ -161,7 +161,7 @@
       "details": [
         {
           "activity": "<h3>\nDR Solutions Design and Review</h3>\n\n <h4>Discussion Topic</h4>\nRead Opara-Martins et al (2014) and Morrow et al (2021) and answer the following questions:\n\n<ul><li>What are some of the main vendor lock-in issues the authors identify? How would you mitigate them?</li><li>What are some of the security concerns with the modern cloud? How can these be mitigated?</li></ul> <h4>Create a high-level diagram of a DR solution with given requirements.</h4> <ul><li>RPO= 1 hr; RTO= 8 hrs; high availability (HA) required.</li><li>RPO= 24 hrs; RTO = 72 hrs; HA NOT required.</li><li>RPO= 5 mins; RTO= 1 hr; HA required.</li></ul>",
-          "route": "/srm_d2_summary"
+          "route": "/srm_dr_sol"
         },
         {
           "activity": "<h3>\nTitle: Team Meeting: Assignment 2</h3>\n<h4> Data Collection and AHP-TOPSIS simulation</h4><ul><li>Collected the data for different countries for risks surrounding supply chain.</li><li>Prepared a AHP-TOPSIS simulation.</li><li>Put in data and ran the simulation to get the rankings for the best possible automated warehouse for pampered pets.</li></ul>",
