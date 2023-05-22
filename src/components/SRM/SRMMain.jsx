@@ -121,8 +121,8 @@ function SRMMain() {
                                       </Button>
                                   </Link>
                               }
-                                {detail.link &&
-                                      <a href={detail.link}>
+                                {detail.downloadLink &&
+                                      <a href={detail.downloadLink}>
                                         <Button
                                             key={detail.route}
                                             style={styles.buttonStyle}
