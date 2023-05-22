@@ -165,7 +165,7 @@
         },
         {
           "activity": "<h3>\nTitle: Team Meeting: Assignment 2</h3>\n<h4> Data Collection and AHP-TOPSIS simulation</h4><ul><li>Collected the data for different countries for risks surrounding supply chain.</li><li>Prepared a AHP-TOPSIS simulation.</li><li>Put in data and ran the simulation to get the rankings for the best possible automated warehouse for pampered pets.</li></ul>",
-          "downloadLink": "https://github.com/prannoymulmi/Security-and-Risk-Management/blob/main/topsis-implementation.ipynb"
+          "downloadLink": "https://github.com/prannoymulmi/Security-and-Risk-Management/blob/main/simulations/topsis-implementation.ipynb"
         }
       ],
       "outcome": [
