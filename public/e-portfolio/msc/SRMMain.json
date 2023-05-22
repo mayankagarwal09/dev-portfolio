@@ -98,7 +98,7 @@
         },
         {
           "activity": "<h3>\nTitle: Assignment 1: Contributions </h3>\n\n<ul><li>Made Architectural diagrams for digitized and non digitized pampered pets.</li><li> Carried out STRIDE threat modeling and risk analysis for the digital transformation.</li><li> Researched and collected which components to implement for the transformation.</li><li> Collected data to support the way to digital transformation of the store.</li></ul> ",
-          "downloadLink": "https://drive.google.com/uc?export=download&id=10WYEHmFmLwa2lAPLd9hQkTvQLSIfBkVX"
+          "link": "https://drive.google.com/uc?export=download&id=10WYEHmFmLwa2lAPLd9hQkTvQLSIfBkVX"
         }
       ],
       "outcome": [
@@ -165,13 +165,26 @@
         },
         {
           "activity": "<h3>\nTitle: Team Meeting: Assignment 2</h3>\n<h4> Data Collection and AHP-TOPSIS simulation</h4><ul><li>Collected the data for different countries for risks surrounding supply chain.</li><li>Prepared a AHP-TOPSIS simulation.</li><li>Put in data and ran the simulation to get the rankings for the best possible automated warehouse for pampered pets.</li></ul>",
-          "downloadLink": "https://github.com/prannoymulmi/Security-and-Risk-Management/blob/main/topsis-implementation.ipynb"
+          "link": "https://github.com/prannoymulmi/Security-and-Risk-Management/blob/main/topsis-implementation.ipynb"
         }
       ],
       "outcome": [
         "Designed Disaster Recovery solutions with different, RTO, and RPO.",
         "Described and acknowledge the different types of DR solution i.e. DRaaS",
         "Discussed the challenges with vendor lock-in."
+      ]
+    },
+    {
+      "title": "Unit 11",
+      "details": [
+        {
+          "activity": "<h3>\nTitle: Team Meeting: Assignment 2 Submission</h3>\n<h4> Run TOPSIS and MCS Simulation in python</h4><ul><li>Created a Notebook to run Monte Carlo simulation in python for Pampered pets.</li><li>Created a Notebook to run AHP-TOPSIS simulation in python for Pampered pets.</li><li>Editing and writing the results of the assessment into the report.</li></ul>",
+          "link": "https://github.com/prannoymulmi/Security-and-Risk-Management/tree/main/simulations"
+        }
+      ],
+      "outcome": [
+        "Discussed the future trends for cyber security.",
+        "Created the Executive Summary for the quantitative assessment for Pampered Pets"
       ]
     }
   ],

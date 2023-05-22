@@ -121,14 +121,14 @@ function SRMMain() {
                                       </Button>
                                   </Link>
                               }
-                                {detail.downloadLink &&
-                                      <a href={detail.downloadLink}>
+                                {detail.link &&
+                                      <a href={detail.link}>
                                         <Button
                                             key={detail.route}
                                             style={styles.buttonStyle}
                                             variant={'outline-' + theme.bsSecondaryVariant}
                                         >
-                                          Download File
+                                          Link
                                         </Button>
                                       </a>
                                 }
