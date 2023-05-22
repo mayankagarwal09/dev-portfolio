@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react';
 import ReactMarkdown from 'react-markdown';
+import Accordion from 'react-bootstrap/Accordion';
 import {
   Container, Col, Row, ListGroup, Button,
 } from 'react-bootstrap';
@@ -14,13 +15,13 @@ import '../../css/about.css';
 
 const styles = {
   introTextContainer: {
-    margin: 10,
+    margin: 50,
     flexDirection: 'column',
     whiteSpace: 'pre-wrap',
     textAlign: 'left',
     fontSize: '1.2em',
     fontWeight: 500,
-    marginBottom: 20,
+    marginBottom: 50,
   },
   introImageContainer: {
     margin: 10,
@@ -87,56 +88,73 @@ function SRMMain() {
                 <hr />
                 {data.units?.map((unit) => (
                  <Row>
-                  <Col style={styles.introTextContainer}>
-                    <h2 style={styles.header}>{unit.title}</h2>
-                    <h4>Learning Outcomes</h4>
-                    <ListGroup as="li" numbered>
-                      {unit.outcome?.slice(0, outcomeLength).map((outcome) => (
-                        <ListGroup.Item
-                          key={outcome}
-                          style={{
-                            backgroundColor: theme.background,
-                            color: theme.color,
-                          }}
-                        >
-                          {outcome}
-                        </ListGroup.Item>
-                      ))}
-                    </ListGroup>
-                    {unit.details?.map((detail) => (
-                      detail && (
-                            <div
-                                style={styles.unitText}
-                                key={detail.route}
-                            >
-                              {parseIntro(detail.activity)}
-                              {detail.route &&
-                                  <Link to={detail.route}>
-                                      <Button
-                                          key={detail.route}
-                                          style={styles.buttonStyle}
-                                          variant={'outline-' + theme.bsSecondaryVariant}
-                                      >
-                                          Learn More
-                                      </Button>
-                                  </Link>
-                              }
-                                {detail.downloadLink &&
-                                      <a href={detail.downloadLink}>
-                                        <Button
-                                            key={detail.route}
-                                            style={styles.buttonStyle}
-                                            variant={'outline-' + theme.bsSecondaryVariant}
-                                        >
-                                          Link
-                                        </Button>
-                                      </a>
-                                }
-                            </div>
-                        )
-                    ))}
-
-                  </Col>
+                   <Col style={styles.introTextContainer}>
+                     <Accordion style={{
+                       backgroundColor: theme.background,
+                       color: theme.color,
+                     }}>
+                       <Accordion.Item eventKey={unit.title} style={{
+                         backgroundColor: theme.background,
+                         color: theme.color,
+                       }}>
+                         <Accordion.Header style={{
+                           backgroundColor: theme.background,
+                           color: theme.color,
+                         }}>{unit.title}</Accordion.Header>
+                         <Accordion.Body>
+                           <div>
+                             <h2 style={styles.header}>{unit.title}</h2>
+                             <h4>Learning Outcomes</h4>
+                             <ListGroup as="li" numbered>
+                               {unit.outcome?.slice(0, outcomeLength).map((outcome) => (
+                                   <ListGroup.Item
+                                       key={outcome}
+                                       style={{
+                                         backgroundColor: theme.background,
+                                         color: theme.color,
+                                       }}
+                                   >
+                                     {outcome}
+                                   </ListGroup.Item>
+                               ))}
+                             </ListGroup>
+                             {unit.details?.map((detail) => (
+                                 detail && (
+                                     <div
+                                         style={styles.unitText}
+                                         key={detail.route}
+                                     >
+                                       {parseIntro(detail.activity)}
+                                       {detail.route &&
+                                           <Link to={detail.route}>
+                                             <Button
+                                                 key={detail.route}
+                                                 style={styles.buttonStyle}
+                                                 variant={'outline-' + theme.bsSecondaryVariant}
+                                             >
+                                               Learn More
+                                             </Button>
+                                           </Link>
+                                       }
+                                       {detail.downloadLink &&
+                                           <a href={detail.downloadLink}>
+                                             <Button
+                                                 key={detail.route}
+                                                 style={styles.buttonStyle}
+                                                 variant={'outline-' + theme.bsSecondaryVariant}
+                                             >
+                                               Link
+                                             </Button>
+                                           </a>
+                                       }
+                                     </div>
+                                 )
+                             ))}
+                           </div>
+                         </Accordion.Body>
+                       </Accordion.Item>
+                     </Accordion>
+                   </Col>
                  <hr />
                  </Row>
                 ))}
