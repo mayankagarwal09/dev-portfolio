@@ -1,11 +1,12 @@
 {
   "heading": "Launching Into Cyber Security",
   "outcome": [
-    "Describe when to use qualitative and quantitative risk assessments.",
+    "Distinguish the types and the situation to use qualitative and quantitative analysis methods.",
     "Create threat models for various scenarios.",
-    "Create quantitative risk models.",
+    "Create quantitative risk models with Monte Carlo simulation and TOPSIS.",
     "Design and explain DR strategies and solutions."
   ],
+  "githubLink": "https://github.com/prannoymulmi/Security-and-Risk-Management/tree/main",
   "units": [
     {
       "title": "Unit 1",

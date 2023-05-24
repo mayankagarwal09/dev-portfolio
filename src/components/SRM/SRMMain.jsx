@@ -74,7 +74,7 @@ function SRMMain() {
                     <ListGroup as="li" numbered>
                       {data.outcome?.slice(0, outcomeLength).map((outcome) => (
                         <ListGroup.Item
-                          key={outcome}
+                          key={uuid()}
                           style={{
                             backgroundColor: theme.background,
                             color: theme.color,
@@ -83,7 +83,16 @@ function SRMMain() {
                           {outcome}
                         </ListGroup.Item>
                       ))}
-
+                      <a href={data.githubLink}>
+                        <Button
+                            key={uuid()}
+                            style={styles.buttonStyle}
+                            variant={'outline-' + theme.bsSecondaryVariant}
+                            className="artefact-button"
+                        >
+                          Check out all artefacts
+                        </Button>
+                      </a>
                     </ListGroup>
                   </Col>
                 </Row>
