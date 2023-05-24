@@ -70,7 +70,7 @@ function SRMMain() {
               <Fade>
                 <Row>
                   <Col style={styles.introTextContainer}>
-                    <h2 style={styles.header}>Learning Outcomes</h2>
+                    <h2 style={styles.header}>Module Learning Outcomes</h2>
                     <ListGroup as="li" numbered>
                       {data.outcome?.slice(0, outcomeLength).map((outcome) => (
                         <ListGroup.Item
@@ -97,6 +97,7 @@ function SRMMain() {
                   </Col>
                 </Row>
                 <hr />
+                <h3> Units in Details</h3>
                 {data.units?.map((unit) => (
                  <Row>
                    <Col style={styles.introTextContainer}>
