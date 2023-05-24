@@ -12,6 +12,8 @@ import Header from '../Header';
 import endpoints from '../../constants/endpoints';
 import FallbackSpinner from '../FallbackSpinner';
 import '../../css/about.css';
+import '../../css/srm_bootstrap.css';
+import { v4 as uuid } from 'uuid';
 
 const styles = {
   introTextContainer: {
@@ -89,14 +91,21 @@ function SRMMain() {
                 {data.units?.map((unit) => (
                  <Row>
                    <Col style={styles.introTextContainer}>
-                     <Accordion style={{
-                       backgroundColor: theme.background,
-                       color: theme.color,
-                     }}>
-                       <Accordion.Item eventKey={unit.title} style={{
-                         backgroundColor: theme.background,
-                         color: theme.color,
-                       }}>
+                     <Accordion
+                       style={{
+                        backgroundColor: theme.background,
+                        color: theme.color,
+                      }}
+                      key={uuid()}
+                     >
+                       <Accordion.Item
+                           eventKey={uuid()}
+                           style={{
+                            backgroundColor: theme.background,
+                            color: theme.color,
+                          }}
+                           key={uuid()}
+                       >
                          <Accordion.Header style={{
                            backgroundColor: theme.background,
                            color: theme.color,

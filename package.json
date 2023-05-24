@@ -26,6 +26,7 @@
     "typewriter-effect": "^2.18.2",
     "use-dark-mode": "^2.3.1",
     "uuid": "^9.0.0",
+    "uuidv4": "^6.2.13",
     "vertical-timeline-component-for-react": "^1.0.7",
     "web-vitals": "3.0.2"
   },
