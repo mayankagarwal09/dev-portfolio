@@ -58,7 +58,10 @@ Using NPM: Simply run the below commands.
 
 ```bash
 # Install dependencies
-$ npm install --force
+$ npm install --legacy-peer-deps
+
+# Force audit fix
+$ npm audit fix --force
 
 # Start the development server
 $ npm start
@@ -544,7 +547,7 @@ I highly recommend to use [Vercel](https://vercel.app) because it is super easy.
 
 ## Notable Portfolios made using this template
 
-- [Mayank Agarwal](https://mayankagarwal.me)
+- [Mayank Agarwal](https://mayankagarwal09.com)
 
 ## Authors
 
