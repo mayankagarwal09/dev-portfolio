@@ -17,13 +17,14 @@
     "react-reveal": "^1.2.2",
     "react-router": "^5.2.1",
     "react-router-dom": "^5.3.0",
-    "react-scripts": "^4.0.3",
+    "react-scripts": "^5.0.1",
     "react-social-icons": "^5.6.1",
     "styled-components": "^5.3.1",
     "typewriter-effect": "^2.18.2",
     "use-dark-mode": "^2.3.1",
     "vertical-timeline-component-for-react": "^1.0.7",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "webpack": "^5.64.4"
   },
   "browserslist": {
     "production": [
@@ -44,15 +45,15 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "react-error-overlay": "6.0.9",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.26.1",
-    "eslint-plugin-react-hooks": "^4.2.0"
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "react-error-overlay": "6.0.9"
   },
   "resolutions": {
     "react-error-overlay": "6.0.9"
   }
-  }
+}
