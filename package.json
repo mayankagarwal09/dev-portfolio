@@ -17,7 +17,7 @@
     "react-reveal": "^1.2.2",
     "react-router": "^5.2.1",
     "react-router-dom": "^5.3.0",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "^3.0.1",
     "react-social-icons": "^5.6.1",
     "styled-components": "^5.3.1",
     "typewriter-effect": "^2.18.2",

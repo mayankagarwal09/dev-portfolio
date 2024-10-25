@@ -38,16 +38,16 @@
       ]
     },
     {
-      "image": "images/projects/quiet-hours-poster.jpg",
-      "title": "Quiet Hours App",
-      "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
+      "image": "images/projects/CyberDetective.png",
+      "title": "Cyber Détective",
+      "bodyText": "Projet de générique de film d'introduction qui est une série d'images créées avec Adobe Photoshop ",
       "links": [
         {
-          "text": "Picture folder",
-          "href": "project1.html"
+          "text": "P",
+          "href": "https://ca.pinterest.com/Pierreskate14/portfolio/cyber-d%C3%A9tective/"
         }
       ],
-      "tags": ["Java", "Android", "Alarm Manager", "VIT"]
+      "tags": ["Photoshop", "Windows"]
     },
     {
       "image": "images/projects/Logo timFinal.png",
