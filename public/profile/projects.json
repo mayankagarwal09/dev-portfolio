@@ -71,9 +71,9 @@
       ]
     },
     {
-      "image": "images/projects/Logo timFinal.png",
+      "image": "images/projects/hommemetro.png",
       "title": "L'homme du metro",
-      "bodyText": "- An Android App that loads list of feeds from a **paginated** API and shows in a RecyclerView.\n - Uses the **MVVM** architecture.\n - Uses **Paging 3** library along with other Architecture Components.",
+      "bodyText": "- Une animation 2D créée avec l'aide d'adobe After Effects se déroulant dans un metro dans un style pixel",
       "links": [
         {
           "text": "Vidéo",
@@ -88,11 +88,11 @@
       "bodyText": "- A simple Task Tracker web app made with **Angular 12**.\n - Uses **mock JSON server** to get, add, delete or update tasks.",
       "links": [
         {
-          "text": "GitHub",
-          "href": "https://github.com/mayankagarwal09/task-tracker-app"
+          "text": "Lien vers le téléchargement du jeu",
+          "href": "https://cmontmorency365-my.sharepoint.com/:u:/r/personal/lora_boisvert_cmontmorency_qc_ca/Documents/Documents/VR/Remises/2024/02_exercices/pl_proulx_travail02_582434_MO.zip?csf=1&web=1&e=yk8we1"
         }
       ],
-      "tags": ["TypeScript", "Angular 12", "JavaScript"]
+      "tags": ["Unity Engine", "C# Script", "3D Game", "Maya"]
     },
     {
       "title": "Image Encryption/Decryption",
