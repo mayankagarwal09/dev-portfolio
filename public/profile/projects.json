@@ -71,18 +71,20 @@
       ]
     },
     {
-      "title": "Feed List App",
+      "image": "images/projects/Logo timFinal.png",
+      "title": "L'homme du metro",
       "bodyText": "- An Android App that loads list of feeds from a **paginated** API and shows in a RecyclerView.\n - Uses the **MVVM** architecture.\n - Uses **Paging 3** library along with other Architecture Components.",
       "links": [
         {
-          "text": "GitHub",
-          "href": "https://github.com/mayankagarwal09/Paginated-App-Feeds-List"
+          "text": "Vidéo",
+          "href": "https://www.behance.net/gallery/211068119/Lhomme-du-Metro"
         }
       ],
-      "tags": ["Kotlin", "Android", "MVVM", "Paging 3", "Coroutines", "Flow"]
+      "tags": ["Animation 2D", "Adobe", "After Effects"]
     },
     {
-      "title": "Task Tracker",
+      "image": "images/projects/Logo timFinal.png",
+      "title": "Jeux de zombie",
       "bodyText": "- A simple Task Tracker web app made with **Angular 12**.\n - Uses **mock JSON server** to get, add, delete or update tasks.",
       "links": [
         {
