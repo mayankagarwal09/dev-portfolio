@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "image": "images/projects/",
+      "image": "images/projects/Monster.png",
       "title": "Je te vois",
       "bodyText": "- Projet Scrollytelling\n -  Fait entièrement grâce au javascript et GSAP\n - Il suffit juste de scroller la page vers le bas",
       "links": [
@@ -23,7 +23,7 @@
       "links": [
         {
           "text": "Conception",
-          "href": "http://caaring.herokuapp.com",
+          "href": "https://www.behance.net/gallery/211193957/Encretit-%28cration-dun-personnage%29?",
           "image": "images/projects/quiet-hours-poster.jpg"
         }
       ],
@@ -43,7 +43,7 @@
       "bodyText": "Projet de générique de film d'introduction qui est une série d'images créées avec Adobe Photoshop ",
       "links": [
         {
-          "text": "P",
+          "text": "Dossier de photos",
           "href": "https://ca.pinterest.com/Pierreskate14/portfolio/cyber-d%C3%A9tective/"
         }
       ],
@@ -56,6 +56,7 @@
       "tags": ["Illustrator", "Adobe"]
     },
     {
+      "image": "images/projects/decision de tuer.png",
       "title": "Option de tuer",
       "bodyText": "- Histoire interactif Web",
       "links": [
@@ -83,9 +84,9 @@
       "tags": ["Animation 2D", "Adobe", "After Effects"]
     },
     {
-      "image": "images/projects/Logo timFinal.png",
+      "image": "images/projects/",
       "title": "Jeux de zombie",
-      "bodyText": "- A simple Task Tracker web app made with **Angular 12**.\n - Uses **mock JSON server** to get, add, delete or update tasks.",
+      "bodyText": "- Jeux de zombie dans le noir en 3D à la première personne, le but étant de collecter toute les bières du tableau! ",
       "links": [
         {
           "text": "Lien vers le téléchargement du jeu",
@@ -93,17 +94,7 @@
         }
       ],
       "tags": ["Unity Engine", "C# Script", "3D Game", "Maya"]
-    },
-    {
-      "title": "Image Encryption/Decryption",
-      "bodyText": "- A Web App for Image Encryption and Decryption made in **Django**.\n - Uses **SDES** algorithm for encryption/decryption.",
-      "links": [
-        {
-          "text": "GitHub",
-          "href": "https://github.com/mayankagarwal09/img-encrypt-sdes"
-        }
-      ],
-      "tags": ["Python", "Django", "SDES", "Cryptography"]
     }
+  
   ]
 }
